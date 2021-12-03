@@ -4066,11 +4066,25 @@ li.accent-advantage {
            column-gap: 2.5vw; } }
   @media (max-width: 1080px) {
     .card-goods__wrap {
-      display: block;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-between;
+      -moz-column-gap: 5.73vw;
+           column-gap: 5.73vw;
+      padding-top: 35px;
       padding-left: 0; } }
+  @media (max-width: 767px) {
+    .card-goods__wrap {
+      display: block; } }
 
 .card-goods__slider {
   outline: 2px solid red; }
+  @media (max-width: 1080px) {
+    .card-goods__slider {
+      grid-column: 1 / -1;
+      margin-bottom: 50px; } }
+  @media (max-width: 767px) {
+    .card-goods__slider {
+      margin-bottom: 25px; } }
 
 .card-goods__desc {
   max-width: 380px;
@@ -4080,7 +4094,8 @@ li.accent-advantage {
   font-weight: 300;
   font-style: italic;
   color: #2b2a29;
-  margin-top: 48px; }
+  margin-top: 48px;
+  outline: 2px solid violet; }
   @media (max-width: 1600px) {
     .card-goods__desc {
       font-size: 28px; } }
@@ -4093,7 +4108,10 @@ li.accent-advantage {
       font-size: 28px; } }
   @media (max-width: 767px) {
     .card-goods__desc {
-      font-size: 25px; } }
+      font-size: 25px;
+      text-align: center;
+      padding-left: 50px;
+      padding-right: 50px; } }
   @media (max-width: 480px) {
     .card-goods__desc {
       font-size: 21px; } }
@@ -4104,7 +4122,13 @@ li.accent-advantage {
 .card-goods__buy {
   display: flex;
   flex-direction: column;
-  max-width: 384px; }
+  justify-self: flex-end;
+  max-width: 384px;
+  outline: 2px solid orange; }
+  @media (max-width: 767px) {
+    .card-goods__buy {
+      margin: 0 auto;
+      margin-top: 50px; } }
 
 .card-goods__accent {
   margin-top: 43px; }
@@ -4190,6 +4214,9 @@ li.accent-advantage {
 .gallery-thumbs__item {
   cursor: pointer;
   opacity: 0.5; }
+  @media (max-width: 1080px) {
+    .gallery-thumbs__item {
+      max-width: 221px; } }
 
 .gallery-thumbs .swiper-slide-thumb-active {
   border: 2px solid #98b500;
