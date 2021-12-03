@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <title>Antipasti</title>
+  <link rel="preload" href="/fonts/Candara.woff2" as="font" crossorigin>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page__body">
+  <div class="wrapper-body">
+    <header class="page-header">
+      <div class="page-header__top header-top">
+        <div class="header-top__form header-top__form--catalog">
+          <p>Еду на рыбалку с друзьями! У вас есть, к примеру:</p>
+          <form class="form-search" action="" method="get">
+            <label class="visually-hidden" for="search-form-input">Поле поиска</label>
+            <input type="search" placeholder="чиабатта ржаная?" id="search-form-input" required="">
+            <button type="submit" class="form-search__btn">Найти</button>
+          </form>
+        </div>
+      </div>
+      <div class="page-header__nav navigation">
+        <nav class="navigation__nav main-nav main-nav--closed">
+          <button class="main-nav__toggle" type="button" aria-label="Открыть/скрыть меню"></button>
+          <ul class="main-nav__list menu">
+            <li>
+              <a class="menu__link-active" href="catalog.html">Пекарня</a>
+            </li>
+            <li>
+              <a href="#">Гастромаркет</a>
+            </li>
+            <li>
+              <a href="catalog-culinary.html">Кулинария</a>
+            </li>
+          </ul>
+          <a class="main-nav__logo logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип Антипасти">
+          </a>
+          <p class="main-nav__phone">Работаем с 8:00 до 22:00
+            <a href="tel:+78003451123" title="Телефон для связи">8 800 345 11 23</a>
+          </p>
+          <a class="menu" href="delivery.html" title="Доставка">Доставка</a>
+          <a class="main-nav__basket" href="basket.html">
+            <img src="img/basket.svg" alt="корзина товаров">
+            <span>12</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main">
+      <div class="page-main__content page-main__content--goods">
+        <article class="container">
+          <ul class="crumbs breadcrumb">
+            <li class="crumb-item">
+              <a href="index.html">Главная</a> /
+            </li>
+            <li class="crumb-item">
+              <a href="catalog.html">Каталог</a> /
+            </li>
+            <li class="crumb-item">
+              <a href="catalog.html">Пекарня</a> /
+            </li>
+            <li class="crumb-item">
+              <a href="catalog.html">Слоёные изделия </a> /
+            </li>
+            <li class="crumb-item crumb-item--current">Круассан классический
+            </li>
+          </ul>
+          <section class="card-goods">
+            <h1>Круассан классический</h1>
+            <div class="card-goods__wrap">
+              <div class="card-goods__slider">
+                <div class="swiper-container gallery-top">
+                  <div class="gallery-top__list swiper-wrapper">
+                    <div class="gallery-top__item swiper-slide">
+                      <img src="img/goods-croissant-2.png" alt="Круассан классический">
+                    </div>
+                    <div class="gallery-top__item swiper-slide">
+                      <img src="img/goods-bagel.jpg" alt="Круассан классический">
+                    </div>
+                    <div class="gallery-top__item swiper-slide">
+                      <img src="img/goods-bagel-3.jpg" alt="Круассан классический">
+                    </div>
+                  </div>
+                  <div class="gallery-top__toggle gallery-top__toggle--next swiper-button-next"></div>
+                  <div class="gallery-top__toggle gallery-top__toggle--prev swiper-button-prev"></div>
+                </div>
+                <div class="swiper-container gallery-thumbs">
+                  <div class="gallery-thumbs__list swiper-wrapper">
+                    <div class="gallery-thumbs__item swiper-slide">
+                      <img src="img/thumb-1.jpg" alt="Круассан классический">
+                    </div>
+                    <div class="gallery-thumbs__item swiper-slide">
+                      <img src="img/thumb-2.jpg" alt="Круассан классический">
+                    </div>
+                    <div class="gallery-thumbs__item swiper-slide">
+                      <img src="img/thumb-3.jpg" alt="Круассан классический">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-goods__desc">
+                <p> <strong>Круассаны обожают и дети, и взрослые. Ими завтракают, перекусывают на работе и в школе, лакомятся на ужин.</strong> </p>
+                <p> <strong>Состав:</strong> мука пшеничная, вода холодная, молоко, сахар, масло сливочное, дрожжи сухие, соль, яичный желток.</p>
+                <p> <strong>Вес:</strong> 80 гр</p>
+              </div>
+              <div class="card-goods__buy">
+                <div class="goods-buy">
+                  <p class="goods-buy__price price-card">60 руб.</p>
+                  <button class="goods-buy__btn button">Хочу купить</button>
+                  <p class="goods-buy__note">количество укажите в <a href="basket.html">корзине</a> </p>
+                </div>
+                <div class="card-goods__accent accent-advantage">
+                  <div class="accent-advantage__img">
+                    <img src="img/icon-watch.png" alt="будильник">
+                  </div>
+                  <div class="accent-advantage__info">
+                    <h3>Часы работы</h3>
+                    <p>Работаем с 8:00 до 21:00, а заказы принимаем на сайте круглосуточно</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="card-goods__direct">
+              <li>
+                <a href="#" title="">Круассан с варёной сгущёнкой</a>
+              </li>
+              <li>
+                <a href="#" title="">Улитка с шоколадом и заварным кремом</a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+      <section class="page-main__products products">
+        <div class="products__wrap container">
+          <h2>С чем подать?</h2>
+          <ul class="products__list gallery-product">
+            <li class="gallery-product__item gallery-product__item--1">
+              <div class="gallery-product__img">
+                <img src="img/goods-img-1.jpg" alt="булка с сыром, яйцом, салатом">
+              </div>
+              <p> <a href="#">Моцарелла</a>, салат, <a href="#">песто</a> и яйцо</p>
+            </li>
+            <li class="gallery-product__item gallery-product__item--2">
+              <div class="gallery-product__img">
+                <img src="img/goods-img-2.png" alt="булка с сыром, яйцом, салатом">
+              </div>
+              <p> <a href="#">куриный паштет</a> и брусничный <a href="#">джем</a> </p>
+            </li>
+            <li class="gallery-product__item gallery-product__item--3">
+              <div class="gallery-product__img">
+                <img src="img/goods-img-3.png" alt="булка с сыром, яйцом, салатом">
+              </div>
+              <p> <a href="#">творожный сыр</a> и малосольный лосось</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="gallery-goods gallery-goods--card">
+        <div class="container">
+          <h2>Вам обязательно понравится</h2>
+          <ul class="gallery-goods__list goods-list">
+            <li class="accent-advantage">
+              <div class="accent-advantage__img">
+                <img src="img/icon-tomatoes.png" alt="ветка помидоров">
+              </div>
+              <div class="accent-advantage__info">
+                <h3>Гастромаркет</h3>
+                <p>У нас свежие продукты для&nbsp;вашего Антипасти, завтрака, обеда и ужина</p>
+              </div>
+            </li>
+            <li>
+              <div class="goods-list__wrap">
+                <a class="goods-list__img label-goods label-goods--hot" href="goods.html">
+                  <img src="img/gallery-bread.png" alt="хлеб пшеничный">
+                </a>
+                <button class="goods-list__btn button">в корзину</button>
+              </div>
+              <div class="goods-list__info">
+                <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                <span>450 гр</span>
+                <p class="goods-list__price price-card">200 руб.</p>
+              </div>
+            </li>
+            <li>
+              <div class="goods-list__wrap">
+                <a class="goods-list__img" href="goods.html">
+                  <img src="img/gallery-croissant.png" alt="хлеб пшеничный">
+                </a>
+                <button class="goods-list__btn button">в корзину</button>
+              </div>
+              <div class="goods-list__info">
+                <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                <span>450 гр</span>
+                <p class="goods-list__price price-card">200 руб.</p>
+              </div>
+            </li>
+            <li>
+              <div class="goods-list__wrap">
+                <a class="goods-list__img label-goods label-goods--hit" href="goods.html">
+                  <img src="img/gallery-baguette.png" alt="хлеб пшеничный">
+                </a>
+                <button class="goods-list__btn button">в корзину</button>
+              </div>
+              <div class="goods-list__info">
+                <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                <span>450 гр</span>
+                <p class="goods-list__price price-card">200 руб.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="page-main__about about-us">
+        <h2 class="visually-hidden">Наше производство</h2>
+        <div class="about-us__blog blog-author container">
+          <div class="blog-author__wrap">
+            <h2 class="title-main">Что такое «антипасти»?<br> А мы сейчас вам всё расскажем и покажем!</h2>
+            <div class="blog-author__block">
+              <div class="blog-author__persons">
+                <div class="blog-author__img">
+                  <img src="img/anna.png" alt="фотография Анны">
+                </div>
+                <div class="blog-author__img">
+                  <img src="img/marta.png" alt="фотография Маргариты">
+                </div>
+
+
+                <div class="blog-author__name name">
+
+                  <p class="name__list name__list--1">
+                    <span class="char1">А</span>
+                    <span class="char2">н</span>
+                    <span class="char3">н</span>
+                    <span class="char4">а</span>
+                  </p>
+                  <p class="name__list name__list--2">и</p>
+                  <p class="name__list name__list--3">
+                    <span class="char1">М</span>
+                    <span class="char2">а</span>
+                    <span class="char3">р</span>
+                    <span class="char4">г</span>
+                    <span class="char3">а</span>
+                    <span class="char3">р</span>
+                    <span class="char3">и</span>
+                    <span class="char3">т</span>
+                    <span class="char3">а</span>
+                  </p>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="blog-author__desc">
+            <p>Каждый раз, отправляясь на пикник, мы, как и большинство наших знакомых тратили часы на готовку закусок и поиск еды в супермаркетах. Не успев отдохнуть, за город мы приезжали уже уставшие и без хлеба...</p>
+            <p>А особенный «квест» приходилось проходить при возвращении в город вечером, преодолевая километровые пробки, очереди и пустые полки в магазине.</p>
+            <p>Наша пекарня — по дороге из Рязани в Солотчу и далее. У нас можно <a href="#" title="о выпечке">вкусно перекусить</a>. А ещё — купить свежую <a href="#" title="о выпечке">выпечку</a> и все необходимые <a href="#" title="о продуктах">продукты</a> для пикника или на обратном пути — для дома, <a href="#" title="оплата">оплатив заказ</a> на сайте. Товары можно забрать самостоятельно. Или мы привезём ваш заказ, если вы находитесь в радиусе 10 км.</p>
+            <a class="blog-author__leaf" href="about.html" title="о нас">О нас</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__nav nav-footer">
+        <div class="nav-footer__content container">
+          <article class="nav-footer__list">
+            <p class="nav-footer__copyright">© 2021. ИП Ларкина А.С.</p>
+            <p class="nav-footer__info">ИНН 122323214204<br> ОГРН 23821382199</p>
+          </article>
+          <ul class="nav-footer__list">
+            <li>
+              <a href="#" title="">О нас</a>
+            </li>
+            <li>
+              <a href="#" title="">Договор оферты</a>
+            </li>
+            <li>
+              <a href="#" title="">Обработка персональных данных</a>
+            </li>
+            <li>
+              <a href="#" title="">Контакты</a>
+            </li>
+          </ul>
+          <a class="nav-footer__logo logo logo--footer" href="index.html" title="">
+            <img src="img/logo-black.svg" alt="Логотип Антипасти">
+          </a>
+          <article class="nav-footer__list">
+            <h4>Каталог</h4>
+            <ul>
+              <li>
+                <a href="#" title="">Пекарня</a>
+              </li>
+              <li>
+                <a href="#" title="">Кулинария</a>
+              </li>
+              <li>
+                <a href="#" title="">Гастромаркет</a>
+              </li>
+            </ul>
+          </article>
+          <article class="nav-footer__list">
+            <a class="nav-footer__tel" href="tel:+78003451123">8 800 345 11 23</a>
+            <a class="nav-footer__mail" href="#" title="info@antipasti-rzn.ru">info@antipasti-rzn.ru</a>
+            <a href="delivery.html" title="">Доставка</a>
+          </article>
+        </div>
+      </div>
+      <div class="page-footer__business business">
+        <p>В вашем бизнесе всё <a href="#" title="">работает само</a></p>
+      </div>
+    </footer>
+  </div>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script-slider.min.js"></script>
+  <script src="js/script.min.js"></script>
+  <script src="js/equalHeight.min.js"></script>
+</body>
+</html>
