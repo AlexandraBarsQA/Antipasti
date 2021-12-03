@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <title>Antipasti</title>
+  <link rel="preload" href="/fonts/Candara.woff2" as="font" crossorigin>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page__body">
+  <div class="wrapper-body">
+    <header class="page-header">
+      <div class="page-header__top header-top">
+        <div class="header-top__form header-top__form--index">
+          <p>Хочу это ваше <a href="about.html" title="Антипасти">Антипасти</a>! У вас есть, к примеру:</p>
+          <form class="form-search" action="" method="get">
+            <label class="visually-hidden" for="search-form-input">Поле поиска</label>
+            <input type="search" placeholder="вяленые томаты" id="search-form-input" required="">
+            <button type="submit" class="form-search__btn">Найти</button>
+          </form>
+        </div>
+      </div>
+      <div class="page-header__nav navigation">
+        <nav class="navigation__nav main-nav main-nav--closed">
+          <button class="main-nav__toggle" type="button" aria-label="Открыть/скрыть меню"></button>
+          <ul class="main-nav__list menu">
+            <li>
+              <a href="catalog.html">Пекарня</a>
+            </li>
+            <li>
+              <a href="catalog.html">Гастромаркет</a>
+            </li>
+            <li>
+              <a href="catalog-culinary.html">Кулинария</a>
+            </li>
+          </ul>
+          <a class="main-nav__logo logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип Антипасти">
+          </a>
+          <p class="main-nav__phone">Работаем с 8:00 до 22:00
+            <a href="tel:+78003451123" title="Телефон для связи">8 800 345 11 23</a>
+          </p>
+          <a class="main-nav__delivery menu" href="delivery.html" title="Доставка">Доставка</a>
+          <a class="main-nav__basket" href="basket.html">
+            <img src="img/basket.svg" alt="корзина товаров">
+            <span>12</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main">
+      <section class="page-main__about about-us">
+        <h1 class="visually-hidden">Наше производство</h1>
+        <div class="about-us__blog blog-author container">
+          <div class="blog-author__wrap">
+            <h2 class="title-main">Что такое «антипасти»?<br> А мы сейчас вам всё расскажем и покажем!</h2>
+            <div class="blog-author__block">
+              <div class="blog-author__persons">
+                <div class="blog-author__img">
+                  <img src="img/anna.png" alt="фотография Анны">
+                </div>
+                <div class="blog-author__img">
+                  <img src="img/marta.png" alt="фотография Маргариты">
+                </div>
+
+
+                <div class="blog-author__name name">
+
+                  <p class="name__list name__list--1">
+                    <span class="char1">А</span>
+                    <span class="char2">н</span>
+                    <span class="char3">н</span>
+                    <span class="char4">а</span>
+                  </p>
+                  <p class="name__list name__list--2">и</p>
+                  <p class="name__list name__list--3">
+                    <span class="char1">М</span>
+                    <span class="char2">а</span>
+                    <span class="char3">р</span>
+                    <span class="char4">г</span>
+                    <span class="char3">а</span>
+                    <span class="char3">р</span>
+                    <span class="char3">и</span>
+                    <span class="char3">т</span>
+                    <span class="char3">а</span>
+                  </p>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="blog-author__desc">
+            <p> <strong>Антипасти</strong> (antipasti) — это классическая итальянская закуска. Пригодится всем, кто отправляется на природу с «домашними аготовками», хочет украсить праздничный стол, взять с собой на работу...</p>
+            <p>В Италии без антипасти немыслима ни одна трапеза! В буквальном переводе «антипасти» — «перед едой», то есть блюдо, употребляемое как прелюдия к основным сытным яствам.</p>
+            <p>Мы придумали и создали <strong>гастромаркет</strong> и предлагаем превосходные <a href="#" title="О продуктах">продукты</a> для вашего Антипасти. Особенно трепетно выбираем производителей, потому что любим готовить и вкусно поесть!</p>
+            <p>А ещё мы <a href="#" title="О пекарне">сами печём</a> хрустящий хлеб, багеты, пиццы, булочки и пирожки — к завтраку, обеду и ужину!</p>
+            <a class="blog-author__leaf" href="about.html" title="о нас">О нас</a>
+          </div>
+        </div>
+      </section>
+      <section class="page-main__slider">
+        <h2 class="visually-hidden">Слайдер нашей продукции</h2>
+        <div class="swiper-container slider-main">
+          <div class="swiper-wrapper slider-main__wrapper">
+            <div class="swiper-slide slider-main__item slider-main__item--1">
+              <img src="img/slider_item_1.jpg" alt="">
+              <div class="slider-main__desc description description--1">
+                <p>Блюда с кусочками свежих <a href="#" title="">фруктов</a> и <a href="#" title="">зеленью</a>...</p>
+              </div>
+            </div>
+            <div class="swiper-slide slider-main__item slider-main__item--2">
+              <img src="img/slider_item_2.jpg" alt="">
+              <div class="slider-main__desc description description--2">
+                <p>... маринованные в масле <a href="#" title="">овощи</a>, блюда с <a href="#" title="">оливками</a>, и капрезе, и блюда с <a href="#" title="">сырами</a>, морепродуктами...</p>
+              </div>
+            </div>
+            <div class="swiper-slide slider-main__item slider-main__item--3">
+              <img src="img/slider_item_3.jpg" alt="">
+              <div class="slider-main__desc description description--3">
+                <p>... <a href="#" title="">копчёности</a>, <a href="#" title="">брускетта</a>, <a href="#" title="">кростини</a> и <a href="#" title="">пицца</a>...</p>
+              </div>
+            </div>
+            <div class="swiper-slide slider-main__item slider-main__item--1">
+              <img src="img/slider_item_1.jpg" alt="">
+              <div class="slider-main__desc description description--1">
+                <p>Блюда с кусочками свежих <a href="#" title="">фруктов</a> и <a href="#" title="">зеленью</a>...</p>
+              </div>
+            </div>
+            <div class="swiper-slide slider-main__item slider-main__item--2">
+              <img src="img/slider_item_2.jpg" alt="">
+              <div class="slider-main__desc description description--2">
+                <p>... маринованные в масле <a href="#" title="">овощи</a>, блюда с <a href="#" title="">оливками</a>, и капрезе, и блюда с <a href="#" title="">сырами</a>, морепродуктами...</p>
+              </div>
+            </div>
+            <div class="swiper-slide slider-main__item slider-main__item--3">
+              <img src="img/slider_item_3.jpg" alt="">
+              <div class="slider-main__desc description description--3">
+                <p>... <a href="#" title="">копчёности</a>, <a href="#" title="">брускетта</a>, <a href="#" title="">кростини</a> и <a href="#" title="">пицца</a>...</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next slider-main__toggle slider-main__toggle--next"></div>
+          <div class="swiper-button-prev slider-main__toggle slider-main__toggle--prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="page-main__content gallery-goods">
+        <div class="container">
+          <h2 class="gallery-goods__title title-main">В нашем гастромаркете есть всё. Выбирайте и заказывайте!</h2>
+          <ul class="gallery-goods__list goods-list">
+            <li>
+              <div class="goods-list__wrap">
+                <a class="goods-list__img label-goods label-goods--hot" href="goods.html">
+                  <img src="img/gallery-bread.png" alt="хлеб пшеничный">
+                </a>
+                <button class="goods-list__btn button">в корзину</button>
+              </div>
+              <div class="goods-list__info">
+                <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                <span>450 гр</span>
+                <p class="goods-list__price price-card">200 руб.</p>
+              </div>
+            </li>
+            <li>
+              <div class="goods-list__wrap">
+                <a class="goods-list__img" href="goods.html">
+                  <img src="img/gallery-apricots.png" alt="хлеб пшеничный">
+                </a>
+                <button class="goods-list__btn button">в корзину</button>
+              </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img" href="goods.html">
+                    <img src="img/gallery-thyme.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img label-goods label-goods--hit" href="goods.html">
+                    <img src="img/gallery-baguette.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img label-goods label-goods--cooking" href="goods.html">
+                    <img src="img/gallery-salmon.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img label-goods label-goods--hit" href="goods.html">
+                    <img src="img/gallery-rings.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img" href="goods.html">
+                    <img src="img/gallery-berry.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img" href="goods.html">
+                    <img src="img/gallery-confiture.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img" href="goods.html">
+                    <img src="img/gallery-fruit.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img" href="goods.html">
+                    <img src="img/gallery-pizza.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img" href="goods.html">
+                    <img src="img/goods-croissant.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+              <li>
+                <div class="goods-list__wrap">
+                  <a class="goods-list__img" href="goods.html">
+                    <img src="img/gallery-tomato-mash.png" alt="хлеб пшеничный">
+                  </a>
+                  <button class="goods-list__btn button">в корзину</button>
+                </div>
+                <div class="goods-list__info">
+                  <a class="goods-list__name" href="goods.html">Хлеб пшеничный деревенский на закваске подовый</a>
+                  <span>450 гр</span>
+                  <p class="goods-list__price price-card">200 руб.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page-main__advantages advantages">
+          <h2 class="visually-hidden">Наши преимущества</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item advantages__item--location">
+              <h3 class="advantages__title">Расположение</h3>
+              <p class="advantages__text">Находимся <a href="#" title="">по пути следования</a> из Рязани в&nbsp;сторону Солотчи и далее</p>
+            </li>
+            <li class="advantages__item advantages__item--time">
+              <h3 class="advantages__title">Часы работы</h3>
+              <p class="advantages__text">Работаем с 8:00 до 22:00, а&nbsp;заказы принимаем на сайте круглосуточно</p>
+            </li>
+            <li class="advantages__item advantages__item--delivery">
+              <h3 class="advantages__title">Доставка</h3>
+              <p class="advantages__text">Развозим бесплатно в&nbsp;радиусе&nbsp;10 км заказы стоимостью от 2000 руб.</p>
+            </li>
+            <li class="advantages__item advantages__item--cooking">
+              <h3 class="advantages__title">Кулинария</h3>
+              <p class="advantages__text">Готовим <a href="#" title="">пиццы</a>, <a href="#" title="">брускетты</a>, <a href="#" title="">варенья</a>, десерты только по собственным рецептам</p>
+            </li>
+            <li class="advantages__item advantages__item--market">
+              <h3 class="advantages__title">Гастромаркет</h3>
+              <p class="advantages__text">У нас свежие продукты для&nbsp;вашего <a href="#" title="">Антипасти</a>, завтрака, обеда и ужина</p>
+            </li>
+            <li class="advantages__item advantages__item--bakery">
+              <h3 class="advantages__title">Пекарня</h3>
+              <p class="advantages__text">Выпекаем <a href="#" title="">хлеб</a> и булочки на&nbsp;закваске, из <a href="#" title="">слоёного</a> и <a href="#" title="">песочного</a> теста</p>
+            </li>
+          </ul>
+        </section>
+        <div class="page-main__map map">
+          <a href="https://yandex.ru/maps/-/CCUuV6UMXA" aria-label="наше расположение">
+            <img src="img/map.jpg" alt="Наше расположение коттеджный поселок Снегири" width="1920" height="547">
+          </a>
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A298b63aeb86c7858f0b036284ee5ec6239126d72b57381b0b87772b0043836ba&amp;source=constructor"></iframe>
+        </div>
+      </main>
+      <footer class="page-footer">
+        <div class="page-footer__nav nav-footer">
+          <div class="nav-footer__content container">
+            <article class="nav-footer__list">
+              <p class="nav-footer__copyright">© 2021. ИП Ларкина А.С.</p>
+              <p class="nav-footer__info">ИНН 122323214204<br> ОГРН 23821382199</p>
+            </article>
+            <ul class="nav-footer__list">
+              <li>
+                <a href="#" title="">О нас</a>
+              </li>
+              <li>
+                <a href="#" title="">Договор оферты</a>
+              </li>
+              <li>
+                <a href="#" title="">Обработка персональных данных</a>
+              </li>
+              <li>
+                <a href="#" title="">Контакты</a>
+              </li>
+            </ul>
+            <a class="nav-footer__logo logo logo--footer" href="index.html" title="">
+              <img src="img/logo-black.svg" alt="Логотип Антипасти">
+            </a>
+            <article class="nav-footer__list">
+              <h4>Каталог</h4>
+              <ul>
+                <li>
+                  <a href="#" title="">Пекарня</a>
+                </li>
+                <li>
+                  <a href="#" title="">Кулинария</a>
+                </li>
+                <li>
+                  <a href="#" title="">Гастромаркет</a>
+                </li>
+              </ul>
+            </article>
+            <article class="nav-footer__list">
+              <a class="nav-footer__tel" href="tel:+78003451123">8 800 345 11 23</a>
+              <a class="nav-footer__mail" href="#" title="info@antipasti-rzn.ru">info@antipasti-rzn.ru</a>
+              <a href="delivery.html" title="">Доставка</a>
+            </article>
+          </div>
+        </div>
+        <div class="page-footer__business business">
+          <p>В вашем бизнесе всё <a href="#" title="">работает само</a></p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script-slider.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/equalHeight.min.js"></script>
+  </body>
+  </html>
