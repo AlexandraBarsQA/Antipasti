@@ -1663,13 +1663,15 @@ a.blog-author__leaf {
   line-height: 1.14286;
   font-weight: 300;
   font-style: italic;
-  outline: 2px solid yellow; }
+  outline: 2px solid yellow;
+  font-size: clamp(25px, 1.8vw, 34px); }
   @media (max-width: 1280px) {
     .description {
       font-size: 25px; } }
   @media (max-width: 992px) {
     .description {
-      font-size: 23px; } }
+      font-size: 23px;
+      font-size: clamp(23px, 1.8vw, 28px); } }
   @media (max-width: 680px) {
     .description {
       font-size: 28px; } }
@@ -1696,7 +1698,7 @@ a.blog-author__leaf {
   background-image: url("../img/quote-2.png"); }
 
 .description--3 {
-  padding: 4.5em 3em 5.5em 4.5em;
+  padding: 6em 2.5em 3.5em 4em;
   background-image: url("../img/quote-3.png"); }
 
 /*
@@ -1805,17 +1807,6 @@ a.blog-author__leaf {
   }
 }
 */
-.description--2::after {
-  height: 426px;
-  background-image: url("../img/quote-2.png"); }
-
-.description--3::after {
-  height: 503px;
-  background-image: url("../img/quote-3.png"); }
-
-.description--3 p {
-  padding-top: 85px; }
-
 .description__img {
   position: relative;
   margin: 0 auto; }
