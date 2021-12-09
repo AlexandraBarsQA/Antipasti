@@ -1673,7 +1673,7 @@ a.blog-author__leaf {
   background-position: top center;
   background-size: 100% 100%;
   font-family: inherit;
-  font-size: clamp(16px, 1.46vw, 28px);
+  font-size: max(25 0.2px, 1.46vw);
   line-height: 1.14286;
   font-weight: 300;
   font-style: italic;
