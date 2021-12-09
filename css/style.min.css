@@ -1680,7 +1680,7 @@ a.blog-author__leaf {
   outline: 2px solid yellow; }
   @media (max-width: 1080px) {
     .description {
-      font-size: clamp(18px, 2.31vw, 25px); } }
+      font-size: max(25 0.2px, 1.46vw); } }
 
 .description--1 {
   position: relative;
@@ -2498,9 +2498,6 @@ li.crumb-item--current {
   grid-template-rows: 1fr -webkit-max-content 2fr;
   grid-template-rows: 1fr max-content 2fr;
   outline: 2px solid green; }
-  @media (max-width: 1080px) {
-    .slider-main__item--1 {
-      grid-template-columns: 1fr max(200px, 38.98vw) 2fr; } }
 
 .slider-main__item--1::after {
   padding-top: 58.6%; }
