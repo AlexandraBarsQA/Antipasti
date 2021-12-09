@@ -2491,7 +2491,7 @@ li.crumb-item--current {
   z-index: -1; }
 
 .slider-main__item--1 {
-  grid-template-columns: 1fr 21.93vw 1fr;
+  grid-template-columns: 1fr max(421px, 21.93vw) 1fr;
   grid-template-rows: 1fr -webkit-max-content 2fr;
   grid-template-rows: 1fr max-content 2fr;
   outline: 2px solid green; }
