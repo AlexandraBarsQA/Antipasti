@@ -1673,14 +1673,11 @@ a.blog-author__leaf {
   background-position: top center;
   background-size: 100% 100%;
   font-family: inherit;
-  font-size: max(25 0.2px, 1.46vw);
+  font-size: max(25.2px, 1.46vw);
   line-height: 1.14286;
   font-weight: 300;
   font-style: italic;
   outline: 2px solid yellow; }
-  @media (max-width: 1080px) {
-    .description {
-      font-size: max(25 0.2px, 1.46vw); } }
 
 .description--1 {
   position: relative;
