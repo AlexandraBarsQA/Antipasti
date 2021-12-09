@@ -2491,20 +2491,10 @@ li.crumb-item--current {
   z-index: -1; }
 
 .slider-main__item--1 {
-  grid-template-columns: 1fr -webkit-min-content 1fr;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr 21.93vw 1fr;
   grid-template-rows: 1fr -webkit-min-content 2fr;
   grid-template-rows: 1fr min-content 2fr;
   outline: 2px solid green; }
-  @media (max-width: 1600px) {
-    .slider-main__item--1 {
-      grid-template-columns: 1fr 26.31vw 1fr; } }
-  @media (max-width: 1180px) {
-    .slider-main__item--1 {
-      grid-template-columns: 1fr 35.68vw 1fr; } }
-  @media (max-width: 680px) {
-    .slider-main__item--1 {
-      grid-template-columns: 1fr 70.93vw 1fr; } }
 
 .slider-main__item--1::after {
   padding-top: 58.6%; }
