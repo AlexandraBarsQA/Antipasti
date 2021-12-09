@@ -1673,11 +1673,14 @@ a.blog-author__leaf {
   background-position: top center;
   background-size: 100% 100%;
   font-family: inherit;
-  font-size: clamp(23px, 1.46vw, 28px);
+  font-size: clamp(16px, 1.46vw, 28px);
   line-height: 1.14286;
   font-weight: 300;
   font-style: italic;
   outline: 2px solid yellow; }
+  @media (max-width: 1080px) {
+    .description {
+      font-size: clamp(18px, 2.31vw, 25px); } }
 
 .description--1 {
   position: relative;
@@ -2492,15 +2495,18 @@ li.crumb-item--current {
 
 .slider-main__item--1 {
   grid-template-columns: 1fr 21.93vw 1fr;
-  grid-template-rows: 1fr -webkit-min-content 2fr;
-  grid-template-rows: 1fr min-content 2fr;
+  grid-template-rows: 1fr -webkit-max-content 2fr;
+  grid-template-rows: 1fr max-content 2fr;
   outline: 2px solid green; }
+  @media (max-width: 1080px) {
+    .slider-main__item--1 {
+      grid-template-columns: 1fr max(200px, 38.98vw) 2fr; } }
 
 .slider-main__item--1::after {
   padding-top: 58.6%; }
 
 .slider-main__item--2 {
-  grid-template-columns: 1fr clamp(340px, 30vw, 577px) 0.5fr;
+  grid-template-columns: 1fr 30.05vw 0.5fr;
   grid-template-rows: 0.3fr -webkit-min-content 3fr;
   grid-template-rows: 0.3fr min-content 3fr;
   outline: 2px solid green; }
@@ -2509,7 +2515,7 @@ li.crumb-item--current {
   padding-top: 73.8%; }
 
 .slider-main__item--3 {
-  grid-template-columns: 1fr clamp(340px, 50vw, 465px) 1fr;
+  grid-template-columns: 1fr 24.2vw 1fr;
   grid-template-rows: 1fr -webkit-min-content 1fr;
   grid-template-rows: 1fr min-content 1fr;
   outline: 2px solid green; }
