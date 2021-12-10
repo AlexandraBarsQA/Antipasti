@@ -1067,15 +1067,13 @@ a.menu:active {
       justify-self: center; } }
 
 .title-main {
-  max-width: 700px;
   font-family: inherit;
   font-size: 58px;
   line-height: 1.06897;
   font-weight: 700;
   font-style: italic;
   color: #98b500;
-  padding-left: 5.52vw;
-  margin: 0 auto; }
+  padding-left: 100px; }
   @media (max-width: 1600px) {
     .title-main {
       font-size: 50px; } }
@@ -1087,32 +1085,30 @@ a.menu:active {
       max-width: 50vw; } }
   @media (max-width: 1080px) {
     .title-main {
-      font-size: 50px; } }
+      font-size: 50px;
+      margin: 0 auto; } }
   @media (max-width: 992px) {
     .title-main {
       max-width: 65vw;
-      font-size: 42px; } }
-  @media (max-width: 767px) {
-    .title-main {
-      max-width: 55vw; } }
+      font-size: 42px;
+      padding-left: 80px; } }
   @media (max-width: 680px) {
     .title-main {
-      max-width: 75%;
-      font-size: 38px; } }
+      font-size: 38px;
+      padding-left: 60px; } }
   @media (max-width: 480px) {
     .title-main {
       font-size: 34px; } }
   @media (max-width: 380px) {
     .title-main {
-      font-size: 28px; } }
+      font-size: 25px; } }
 
 .title-main::before {
   position: absolute;
   content: "";
   width: 65px;
-  width: 3.3vw;
   height: 7px;
-  top: 1.5vw;
+  top: 20px;
   left: 0;
   background-color: #98b500; }
   @media (max-width: 1600px) {
@@ -1126,7 +1122,13 @@ a.menu:active {
       height: 5px; } }
   @media (max-width: 992px) {
     .title-main::before {
-      height: 4px; } }
+      width: 45px;
+      height: 4px;
+      top: 15px; } }
+  @media (max-width: 380px) {
+    .title-main::before {
+      width: 35px;
+      top: 10px; } }
 
 .button {
   display: flex;
@@ -1423,22 +1425,16 @@ a.blog-author__leaf {
       padding-top: 25px; } }
 
 .blog-author .title-main {
-  position: relative;
-  padding-left: 5.52vw; }
-  @media (max-width: 1080px) {
-    .blog-author .title-main {
-      max-width: 60%; } }
+  position: relative; }
   @media (max-width: 680px) {
     .blog-author .title-main {
-      max-width: 50%;
       font-size: 38px; } }
   @media (max-width: 480px) {
     .blog-author .title-main {
-      max-width: 40%;
       font-size: 32px; } }
   @media (max-width: 380px) {
     .blog-author .title-main {
-      font-size: 28px; } }
+      font-size: 25px; } }
 
 .blog-author .title-main::before {
   position: absolute;
@@ -1448,38 +1444,19 @@ a.blog-author__leaf {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -45px;
-  outline: 2px solid blue; }
-
-.name__list {
-  display: inline-block;
-  text-align: center;
-  transform-origin: bottom center; }
-
-.name__list--1 span:nth-child(1) {
-  transform: rotateY(2deg); }
-
-.name__list--1 span:nth-child(2) {
-  transform: rotateY(4deg); }
-
-.name__list--1 span:nth-child(3) {
-  transform: rotateY(6deg); }
-
-.name__list--1 span:nth-child(4) {
-  transform: rotateY(8deg); }
-
-.innovation-evreinov {
-  width: 665px;
-  height: 665px;
-  border-radius: 50%;
-  background-color: #fff;
-  margin-top: -5px;
-  margin-left: 230px;
-  z-index: 200;
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s; }
+  bottom: -2.6vw; }
+  @media (max-width: 1600px) {
+    .name {
+      bottom: -2vw; } }
+  @media (max-width: 1280px) {
+    .name {
+      bottom: -1.6vw; } }
+  @media (max-width: 1080px) {
+    .name {
+      bottom: -4.63vw; } }
+  @media (max-width: 767px) {
+    .name {
+      bottom: -3vw; } }
 
 .label-goods {
   position: relative; }
