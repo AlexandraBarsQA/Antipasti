@@ -585,8 +585,7 @@ input[name="toggle"] {
   border: 0;
   outline: 0;
   cursor: pointer;
-  pointer-events: auto;
-  outline: 2px solid blue; }
+  pointer-events: auto; }
 
 .form-search input[type="search"]::-webkit-input-placeholder {
   display: flex;
@@ -597,8 +596,7 @@ input[name="toggle"] {
   font-weight: 700;
   font-style: italic;
   text-align: center;
-  color: #2c3370;
-  outline: 2px solid violet; }
+  color: #2c3370; }
   @media (max-width: 992px) {
     .form-search input[type="search"]::-webkit-input-placeholder {
       font-size: 37px; } }
@@ -621,8 +619,7 @@ input[name="toggle"] {
   background-size: 100% auto;
   border: none;
   cursor: pointer;
-  padding: 0;
-  outline: 2px solid red; }
+  padding: 0; }
 
 /*
 .form-search {
