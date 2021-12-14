@@ -1604,7 +1604,6 @@ a.blog-author__leaf {
   text-align: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  transform: rotate(-3.5deg);
   z-index: 50; }
   @media (max-width: 1600px) {
     .label-goods::before {
@@ -2065,7 +2064,8 @@ a.blog-author__leaf {
   display: flex;
   flex-direction: column;
   height: 100%;
-  text-align: center; }
+  text-align: center;
+  transform: rotate(-3.5deg); }
 
 .goods-list__img {
   position: relative;
@@ -2083,7 +2083,6 @@ a.blog-author__leaf {
   line-height: 1.08824;
   font-style: italic;
   text-align: center;
-  transform: rotate(-3.5deg);
   margin-top: 25px; }
   @media (max-width: 1600px) {
     .goods-list__info {
@@ -2139,7 +2138,7 @@ a.blog-author__leaf {
   width: 192px;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%) rotate(-3.5deg);
+  transform: translateX(-50%);
   z-index: 50; }
 
 .goods-list li:hover .goods-list__btn {
