@@ -1463,23 +1463,22 @@ a.menu:active {
   transform: scaleX(-1); }
 
 .blog-author__desc {
-  margin-top: 65px;
-  -moz-columns: 2 auto;
-       columns: 2 auto;
-  -moz-column-gap: 4.69vw;
-       column-gap: 4.69vw; }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 5.3vw;
+       column-gap: 5.3vw;
+  margin-top: 87px; }
   @media (max-width: 1080px) {
     .blog-author__desc {
       margin-top: 9.26vw; } }
   @media (max-width: 992px) {
     .blog-author__desc {
-      -moz-columns: 1;
-           columns: 1; } }
+      grid-template-columns: 1fr; } }
   @media (max-width: 480px) {
     .blog-author__desc {
       margin-top: 0; } }
 
-.blog-author__desc p:not(:last-child) {
+.blog-author__desc li {
   font-family: inherit;
   font-size: 34px;
   line-height: 1.23529;
@@ -1487,23 +1486,27 @@ a.menu:active {
   font-style: italic;
   margin-bottom: 2.6vw; }
   @media (max-width: 1600px) {
-    .blog-author__desc p:not(:last-child) {
+    .blog-author__desc li {
       font-size: 28px; } }
   @media (max-width: 1280px) {
-    .blog-author__desc p:not(:last-child) {
+    .blog-author__desc li {
       font-size: 25px; } }
   @media (max-width: 1080px) {
-    .blog-author__desc p:not(:last-child) {
+    .blog-author__desc li {
       font-size: 28px; } }
   @media (max-width: 767px) {
-    .blog-author__desc p:not(:last-child) {
+    .blog-author__desc li {
       font-size: 25px; } }
   @media (max-width: 480px) {
-    .blog-author__desc p:not(:last-child) {
+    .blog-author__desc li {
       font-size: 21px; } }
 
 .blog-author__desc a {
+  grid-column: 2;
   color: #2c3370; }
+  @media (max-width: 992px) {
+    .blog-author__desc a {
+      grid-column: 1; } }
 
 a.blog-author__leaf {
   display: flex;
@@ -1519,20 +1522,22 @@ a.blog-author__leaf {
   width: 155px;
   height: 121px;
   padding-top: 28px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: -5.21vw; }
   @media (max-width: 1600px) {
     a.blog-author__leaf {
       font-size: 28px; } }
   @media (max-width: 1280px) {
     a.blog-author__leaf {
-      font-size: 25px; } }
+      font-size: 25px;
+      margin-top: -40px; } }
   @media (max-width: 1080px) {
     a.blog-author__leaf {
       font-size: 28px; } }
   @media (max-width: 992px) {
     a.blog-author__leaf {
       padding-top: 35px;
-      margin-top: 35px; } }
+      margin-top: 20px; } }
   @media (max-width: 767px) {
     a.blog-author__leaf {
       font-size: 25px;
@@ -1565,7 +1570,7 @@ a.blog-author__leaf {
   left: 0; }
 
 @media (max-width: 480px) {
-  .blog-author__desc p {
+  .blog-author__desc ul {
     display: none; } }
 
 .name {
