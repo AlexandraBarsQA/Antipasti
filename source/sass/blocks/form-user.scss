@@ -1,0 +1,146 @@
+.form-user {
+  grid-column: 1 / -1;
+}
+
+.form-user--basket .field-item--profile {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 8vw;
+
+  @media (max-width: 1600px) {
+    column-gap: 7vw;
+  }
+
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    column-gap: 80px;
+  }
+
+  @media (max-width: 992px) {
+    column-gap: 50px;
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-user__field input[type="checkbox"] + label,
+.form-user__field input[type="radio"] + label {
+  cursor: pointer;
+}
+
+.form-user__field input,
+.form-user__field textarea {
+  font-size: 20px;
+  color: #333333;
+}
+
+.form-user__note {
+  font-family: inherit;
+  font-size: 25px;
+  line-height: 28 / 25 * 1;
+  font-weight: 300;
+  font-style: italic;
+  color: #000000;
+  padding-right: 100px;
+  margin-top: 20px;
+
+  @media (max-width: 1600px) {
+
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 21px;
+  }
+
+  @media (max-width: 992px) {
+    padding-right: 0;
+  }
+}
+
+.form-user__note a {
+  color: #000000;
+}
+
+.form-user--basket .form-user__note {
+  padding-right: 0;
+}
+
+.form-user__btn {
+  display: block;
+  width: 312px;
+  margin-top: 15px;
+  margin-left: auto;
+
+  @media (max-width: 1600px) {
+    width: 260px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 209px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 312px;
+  }
+
+  @media (max-width: 767px) {
+    margin: 25px auto 0;
+  }
+
+  @media (max-width: 480px) {
+    width: 260px;
+  }
+}
+
+.form-user__sum.caption {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  row-gap: 3vw;
+  align-items: center;
+  margin-top: 80px;
+
+  @media (max-width: 1600px) {
+    margin-top: 55px;
+  }
+
+  @media (max-width: 1280px) {
+    margin-top: 45px;
+  }
+
+  @media (max-width: 1080px) {
+    margin-left: 0;
+  }
+
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.form-user--basket button {
+  width: 270px;
+  justify-self: end;
+  margin-top: 0;
+  margin-left: 0;
+
+  @media (max-width: 1600px) {
+    width: 203px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 163px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 245px;
+  }
+
+  @media (max-width: 992px) {
+    justify-self: center;
+    margin: 0 auto;
+  }
+}
+

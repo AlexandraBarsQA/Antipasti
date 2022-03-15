@@ -1,0 +1,89 @@
+.content h1 {
+  font-family: inherit;
+  font-size: 58px;
+  line-height: 62 / 58 * 1;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: #98b500;
+
+  @media (max-width: 1600px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 58px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 580px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 380px) {
+
+  }
+}
+
+.content p:not(:last-child) {
+  margin-bottom: 40px;
+
+  @media (max-width: 1600px) {
+
+  }
+
+  @media (max-width: 1280px) {
+
+  }
+
+  @media (max-width: 1080px) {
+
+  }
+
+  @media (max-width: 992px) {
+
+  }
+
+  @media (max-width: 767px) {
+
+  }
+}
+
+.content .caption p {
+  margin-bottom: 0;
+}
+
+.content__wrap {
+  padding-left: 12.5vw;
+  padding-right: 12.5vw;
+  padding-bottom: 115px;
+
+  @media (max-width: 1280px) {
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 80px;
+  }
+
+  @media (max-width: 1080px) {
+
+  }
+
+  @media (max-width: 767px) {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 50px;
+  }
+
+  @media (max-width: 480px) {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 25px;
+  }
+}

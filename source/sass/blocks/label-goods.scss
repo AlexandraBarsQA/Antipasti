@@ -1,0 +1,163 @@
+.label-goods {
+  position: relative;
+}
+
+.label-goods::before {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 29px;
+  line-height: 32 / 29 * 1;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 50;
+
+  @media (max-width: 1600px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 21px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 680px) {
+    font-size: 21px;
+  }
+}
+
+.label-goods--hot::before {
+  content: "только что из печки";
+  width: 291px;
+  height: 257px;
+  bottom: 50%;
+  right: -10%;
+  background-image: url("../img/label_oven2.png");
+  padding-left: 6.7vw;
+  padding-top: 1.82vw;
+  padding-right: 1.04vw;
+
+  @media (max-width: 1600px) {
+    width: 232px;
+    height: 205px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 189px;
+    height: 167px;
+    bottom: 40%;
+  }
+
+  @media (max-width: 1180px) {
+
+  }
+
+  @media (max-width: 1080px) {
+    width: 232px;
+    height: 205px;
+    bottom: 55%;
+    padding-left: 95px;
+    padding-top: 25px;
+  }
+
+  @media (max-width: 992px) {
+    right: 0;
+  }
+
+  @media (max-width: 767px) {
+
+  }
+
+  @media (max-width: 680px) {
+    width: 189px;
+    height: 167px;
+    bottom: 60%;
+    font-size: 21px;
+    padding-left: 75px;
+    padding-top: 25px;
+  }
+
+  @media (max-width: 580px) {
+
+  }
+
+  @media (max-width: 480px) {
+    right: 0;
+  }
+
+  @media (max-width: 380px) {
+    right: -5%;
+  }
+}
+
+.label-goods--hit::before {
+  content: "хит";
+  width: 110px;
+  height: 91px;
+  top: 0;
+  right: 5%;
+  background-image: url("../img/crown.svg");
+  padding-top: 1.82vw;
+
+  @media (max-width: 1600px) {
+    width: 88px;
+    height: 72px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 72px;
+    height: 59px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 88px;
+    height: 72px;
+    padding-top: 25px;
+  }
+
+  @media (max-width: 680px) {
+    width: 72px;
+    height: 59px;
+  }
+}
+
+.label-goods--cooking::before {
+  content: "кулинария";
+  width: 199px;
+  height: 45px;
+  top: 5%;
+  right: -10%;
+  background-image: url("../img/label_cooking.svg");
+  background-position: 50% 100%;
+
+  @media (max-width: 1600px) {
+    width: 169px;
+    height: 36px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 143px;
+    height: 32px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 169px;
+    height: 36px;
+  }
+
+  @media (max-width: 680px) {
+    width: 143px;
+    height: 32px;
+    right: 0;
+  }
+}

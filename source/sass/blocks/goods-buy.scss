@@ -1,0 +1,40 @@
+.goods-buy {
+  text-align: center;
+  transform: rotate(-3.5deg);
+}
+
+.goods-buy__price {
+  margin-bottom: 20px;
+}
+
+.goods-buy__btn {
+  width: 14.58vw;
+  background-color: #98b500;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  @media (max-width: 1280px) {
+    width: 200px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 260px;
+  }
+
+  @media (max-width: 680px) {
+    width: 220px;
+  }
+}
+
+.goods-buy__note {
+  font-family: inherit;
+  font-size: 25px;
+  line-height: 28 / 25 * 1;
+  font-weight: 300;
+  font-style: italic;
+  color: #2b2a29;
+}
+
+.goods-buy__note a {
+  color: #2c3370;
+}

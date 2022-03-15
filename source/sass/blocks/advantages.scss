@@ -1,0 +1,315 @@
+.advantages {
+  background-image: url("../img/back-main-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advantages__list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  column-gap: 1.3vw;
+  row-gap: 115px;
+  align-items: start;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  @media (max-width: 1600px) {
+    row-gap: 80px;
+  }
+
+  @media (max-width: 1280px) {
+    row-gap: 50px;
+  }
+
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    justify-content: space-between;
+  }
+
+  @media (max-width: 840px) {
+    display: block;
+  }
+}
+
+.advantages p {
+  font-family: inherit;
+  font-size: 34px;
+  line-height: 37 / 34 * 1;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+
+  @media (max-width: 1600px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 21px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 25px;
+  }
+}
+
+.advantages a {
+  color: #ffffff;
+}
+
+.advantages__list h3 {
+  font-family: inherit;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: italic;
+  color: #98b500;
+  margin-bottom: 45px;
+
+  @media (max-width: 1600px) {
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 680px) {
+    font-size: 32px;
+  }
+}
+
+.advantages__list li {
+  position: relative;
+  padding-left: 165px;
+
+  @media (max-width: 1600px) {
+    padding-left: 130px;
+  }
+
+  @media (max-width: 1280px) {
+
+  }
+
+  @media (max-width: 840px) {
+    display: block;
+    max-width: 65%;
+    padding-left: 65px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 580px) {
+    max-width: 85%;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+.advantages__list li:not(:last-child) {
+  @media (max-width: 840px) {
+    margin-bottom: 47px;
+  }
+}
+
+.advantages__list li:before {
+  position: absolute;
+  content: "";
+  width: 156px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 50%;
+  left: -3%;
+  bottom: 0;
+
+  @media (max-width: 1600px) {
+    width: 124px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 101px;
+    left: 3%;
+  }
+
+  @media (max-width: 1080px) {
+    width: 124px;
+    left: 0;
+  }
+
+  @media (max-width: 992px) {
+    width: 101px;
+  }
+
+  @media (max-width: 840px) {
+    width: 78px;
+    background-position: 100% 100%;
+    left: -10%;
+  }
+
+  @media (max-width: 580px) {
+    display: none;
+  }
+}
+
+.advantages__item--location:before {
+  width: 126px;
+  height: 220px;
+  background-image: url("../img/birches.png");
+
+  @media (max-width: 1600px) {
+    width: 100px;
+    height: 176px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 83px;
+    height: 143px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 100px;
+    height: 176px;
+  }
+
+  @media (max-width: 992px) {
+
+  }
+}
+
+.advantages__item--time:before {
+  width: 133px;
+  height: 183px;
+  background-image: url("../img/watch.png");
+
+  @media (max-width: 1600px) {
+    width: 106px;
+    height: 146px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 86px;
+    height: 118px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 106px;
+    height: 146px;
+  }
+
+  @media (max-width: 992px) {
+
+  }
+}
+
+.advantages__item--delivery:before {
+  width: 148px;
+  height: 194px;
+  background-image: url("../img/wicker-basket.png");
+
+  @media (max-width: 1600px) {
+    width: 118px;
+    height: 155px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 96px;
+    height: 126px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 118px;
+    height: 155px;
+  }
+
+  @media (max-width: 992px) {
+
+  }
+}
+
+.advantages__item--cooking:before {
+  width: 123px;
+  height: 172px;
+  background-image: url("../img/pizza.png");
+
+  @media (max-width: 1600px) {
+    width: 98px;
+    height: 137px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 80px;
+    height: 112px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 98px;
+    height: 137px;
+  }
+
+  @media (max-width: 992px) {
+
+  }
+}
+
+.advantages__item--market:before {
+  width: 156px;
+  height: 238px;
+  background-image: url("../img/tomatoes.png");
+
+  @media (max-width: 1600px) {
+    width: 124px;
+    height: 190px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 101px;
+    height: 154px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 124px;
+    height: 190px;
+  }
+
+  @media (max-width: 992px) {
+
+  }
+}
+
+.advantages__item--bakery:before {
+  width: 146px;
+  height: 195px;
+  background-image: url("../img/bread.png");
+
+  @media (max-width: 1600px) {
+    width: 117px;
+    height: 156px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 95px;
+    height: 126px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 117px;
+    height: 156px;
+  }
+
+  @media (max-width: 992px) {
+
+  }
+}

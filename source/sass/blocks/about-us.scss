@@ -1,0 +1,40 @@
+.about-us {
+  position: relative;
+  width: 100%;
+  background-color: #f6f2ec;
+}
+
+.about-us::before,
+.about-us::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+}
+
+.about-us::before {
+  height: 91px;
+  top: -35px;
+  background-image: url("../img/top-edge-beige.png");
+}
+
+.about-us::after {
+  height: 113px;
+  bottom: -35px;
+  background-image: url("../img/bottom-edge-beige.png");
+}
+
+.about-us__blog {
+  position: relative;
+  padding-left: 3.65vw;
+  padding-right: 3.65vw;
+  padding-bottom: 20px;
+  z-index: 20;
+
+  @media (max-width: 480px) {
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,89 @@
+.gallery-goods {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 35px;
+  overflow: hidden;
+}
+
+.gallery-goods--card {
+  padding-top: 100px;
+  padding-bottom: 73px;
+}
+
+.gallery-goods--basket {
+  margin-top: 80px;
+}
+
+.gallery-goods__title {
+  position: relative;
+  //max-width: 50vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+
+  @media (max-width: 1180px) {
+   // max-width: 55vw;
+  }
+
+  @media (max-width: 1080px) {
+    //max-width: 65vw;
+  }
+
+  @media (max-width: 767px) {
+    //max-width: 80vw;
+  }
+
+  @media (max-width: 480px) {
+    //max-width: 85vw;
+    margin-left: 0;
+  }
+}
+
+.gallery-goods__title--gallery {
+  max-width: 60%;
+
+  @media (max-width: 992px) {
+   max-width: 85%;
+  }
+
+  @media (max-width: 680px) {
+   max-width: 95%;
+  }
+}
+
+.gallery-goods__list {
+  margin-top: 50px;
+}
+
+.gallery-goods--basket .goods-list li:hover .goods-list__name {
+  color: #2b2a29;
+  text-decoration: none;
+}
+
+.gallery-goods--card h2 {
+  font-family: inherit;
+  font-size: 58px;
+  line-height: 62 / 58 * 1;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: #98b500;
+  margin-bottom: 115px;
+
+  @media (max-width: 1600px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 42px;
+  }
+}

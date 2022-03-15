@@ -1,0 +1,105 @@
+.caption {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 7.55vw;
+  row-gap: 2.6vw;
+  justify-content: center;
+
+  @media (max-width: 1280px) {
+    column-gap: 5vw;
+  }
+
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @media (max-width: 580px) {
+    grid-template-columns: 1fr;
+    row-gap: 4vw;
+    text-align: center;
+  }
+}
+
+.caption p {
+  font-family: inherit;
+  font-size: 50px;
+  line-height: 54 / 50 * 1;
+  font-weight: 700;
+  font-style: italic;
+  color: #333333;
+
+  @media (max-width: 1600px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 680px) {
+    font-size: 32px;
+  }
+}
+
+.caption span {
+  font-weight: 300;
+  color: #98b500;
+
+  @media (max-width: 1080px) {
+
+  }
+}
+
+.caption a {
+  position: relative;
+  display: inline-block;
+  font-size: 34px;
+  font-weight: 300;
+  color: #2c3370;
+  margin-left: 60px;
+
+  @media (max-width: 1600px) {
+    font-size: 28px;
+    margin-left: 30px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 25px;
+    margin-left: 0;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 34px;
+    text-align: center;
+    grid-column: 1 / -1;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 25px;
+  }
+}
+
+.caption a::before {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 32px;
+  height: 44px;
+  left: -20px;
+  background-image: url("../img/icon-update.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}

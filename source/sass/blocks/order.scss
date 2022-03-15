@@ -1,0 +1,88 @@
+.order {
+  position: relative;
+  width: 100%;
+  background-color: #f6f2ec;
+}
+
+.order::before,
+.order::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+}
+
+.order::before {
+  height: 91px;
+  top: -35px;
+  background-image: url("../img/top-edge-beige.png");
+}
+
+.order::after {
+  height: 113px;
+  bottom: -35px;
+  background-image: url("../img/bottom-edge-beige.png");
+}
+
+.order__user {
+  position: relative;
+  padding-top: 65px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 55px;
+  z-index: 20;
+
+  @media (max-width: 1600px) {
+    padding-left: 9.38vw;
+    padding-right: 9.38vw;
+  }
+
+  @media (max-width: 1280px) {
+    padding-left: 4.69vw;
+    padding-right: 4.69vw;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+}
+
+.order__manual {
+  font-family: inherit;
+  font-size: 34px;
+  line-height: 37 / 34 * 1;
+  font-weight: 300;
+  font-style: italic;
+  color: #000000;
+
+  @media (max-width: 1600px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 24px;
+  }
+}
+
+.order__manual span {
+  display: inline-block;
+  color: #98b500;
+}
+
+.order__form {
+  padding-top: 45px;
+}

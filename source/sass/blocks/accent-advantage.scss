@@ -1,0 +1,90 @@
+.accent-advantage {
+  max-width: 384px;
+  font-family: inherit;
+  font-style: italic;
+  color: #98b500;
+  text-align: center;
+}
+
+li.accent-advantage {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.accent-advantage__img {
+  position: relative;
+  display: flex;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.accent-advantage__info {
+  transform: rotate(-3.5deg);
+}
+
+.accent-advantage h3 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 1.82vw;
+
+  @media (max-width: 1600px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 38px;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: 680px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 580px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+}
+
+.accent-advantage p {
+  font-size: 34px;
+  line-height: 37 / 34 * 1;
+  font-weight: 300;
+
+  @media (max-width: 1600px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 25px;
+  }
+}
+
+.accent-advantage a {
+  color: #98b500;
+  text-decoration: underline;
+}

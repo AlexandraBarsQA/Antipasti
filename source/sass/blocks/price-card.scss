@@ -1,0 +1,23 @@
+p.price-card {
+  font-family: inherit;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 300;
+  color: #98b500;
+
+  @media (max-width: 1600px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 680px) {
+    font-size: 42px;
+  }
+}

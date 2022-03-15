@@ -1,0 +1,102 @@
+.products {
+  position: relative;
+  width: 100%;
+  background-color: #f6f2ec;
+}
+
+.products::before,
+.products::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 10;
+}
+
+.products::before {
+  height: 91px;
+  top: -35px;
+  background-image: url("../img/top-edge-beige.png");
+  background-size: cover;
+}
+
+.products::after {
+  height: 113px;
+  bottom: -40px;
+  background-image: url("../img/bottom-edge-beige.png");
+  background-size: cover;
+}
+
+.products__wrap {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  z-index: 20;
+}
+
+.products h2 {
+  font-family: inherit;
+  font-size: 58px;
+  line-height: 62 / 58 * 1;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: #2b2a29;
+
+  @media (max-width: 1600px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 42px;
+  }
+}
+
+.products__nav {
+  padding-left: 5vw;
+  padding-right: 5vw;
+
+  @media (max-width: 1600px) {
+
+  }
+
+  @media (max-width: 1280px) {
+
+  }
+
+  @media (max-width: 1180px) {
+
+  }
+
+  @media (max-width: 1080px) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  @media (max-width: 992px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (max-width: 767px) {
+
+  }
+
+  @media (max-width: 480px) {
+
+  }
+}
+
+.products__nav--culinary {
+
+}

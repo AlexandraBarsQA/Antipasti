@@ -1,0 +1,264 @@
+/*
+.description {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 938px;
+  margin: auto;
+}
+*/
+
+/*
+.description p {
+  position: absolute;
+  font-family: inherit;
+  font-size: 28px;
+  line-height: 32 / 28 * 1;
+  font-weight: 300;
+  font-style: italic;
+  z-index: 25;
+
+  @media (max-width: 1600px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 21px;
+  }
+
+  @media (max-width: 1180px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 23px;
+  }
+
+  @media (max-width: 680px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 23px;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 28px;
+  }
+}
+*/
+
+.description a {
+  color: #2c3370;
+}
+
+.description {
+  position: relative;
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+  font-family: inherit;
+  //font-size: clamp(16px, 1.46vw, 28px);
+  font-size: #{'max(25.2px, 1.46vw)'};
+  line-height: 32 / 28 * 1;
+  font-weight: 300;
+  font-style: italic;
+
+  @media (max-width: 992px) {
+    //font-size: #{'max(25.2px, 1.46vw)'};
+    font-size: #{'max(23.5px, 2.52vw)'};
+  }
+
+  @media (max-width: 380px) {
+    font-size: #{'max(21px, 6.18vw)'};
+  }
+}
+
+.description--1 {
+  position: relative;
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 2.6em 1.8em 3em 4.8em;
+  background-image: url("../img/quote-1.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+}
+
+.description--2 {
+  padding: 6.6em 4.8em 4.8em 2.8em;
+  background-image: url("../img/quote-2.png");
+}
+
+.description--3 {
+  padding: 8.8em 3.2em 6.8em 4.6em;
+  background-image: url("../img/quote-3.png");
+
+}
+
+
+
+/*
+.description--1 {
+  width: 421px;
+  top: -15%;
+  padding-left: 135px;
+
+  @media (max-width: 1600px) {
+    width: 378px;
+    padding-left: 121px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 315px;
+    padding-left: 101px;
+  }
+
+  @media (max-width: 1180px) {
+    width: 421px;
+    padding-left: 135px;
+  }
+
+  @media (max-width: 992px) {
+    width: 315px;
+    padding-left: 98px;
+  }
+
+  @media (max-width: 680px) {
+    width: 421px;
+    padding-left: 135px;
+  }
+
+  @media (max-width: 480px) {
+    width: 336px;
+    padding-left: 110px;
+  }
+
+  @media (max-width: 380px) {
+    width: 100%;
+    padding-left: 75px;
+    padding-right: 10px;
+  }
+}
+
+*/
+
+/*
+.description--2 {
+  width: 577px;
+  top: -23%;
+  padding-left: 80px;
+  padding-right: 120px;
+}
+
+.description--3 {
+  width: 465px;
+  top: -10%;
+  padding-left: 125px;
+  padding-right: 90px;
+}
+*/
+
+
+/*
+.description::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+
+
+
+/*
+.description--1::after {
+  height: 247px;
+  background-image: url("../img/quote-1.png");
+
+  @media (max-width: 1600px) {
+    height: 221px;
+  }
+
+  @media (max-width: 1280px) {
+    height: 185px;
+  }
+
+  @media (max-width: 1180px) {
+    height: 247px;
+  }
+
+  @media (max-width: 992px) {
+    height: 185px;
+  }
+
+  @media (max-width: 680px) {
+    height: 247px;
+  }
+
+  @media (max-width: 480px) {
+    height: 197px;
+  }
+
+  @media (max-width: 380px) {
+    height: 50%;
+    background-size: 150% auto;
+    background-position: 45% 55%;
+  }
+}
+*/
+
+
+
+
+.description__img {
+  position: relative;
+  margin: 0 auto;
+}
+
+
+
+
+/*
+.description p {
+  position: absolute;
+  width: 65%;
+  top: 50%;
+  left: 135px;
+  transform: translateY(-50%);
+  font-family: inherit;
+  font-size: 29px;
+  line-height: 32 / 29 * 1;
+  font-weight: 300;
+  font-style: italic;
+  z-index: 25;
+}
+*/
+
+
+/*
+
+.description p::before {
+  position: absolute;
+  content: "";
+  width: 421px;
+  height: 247px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+
+  background-image: url("../img/quote-1.png");
+  z-index: -1;
+}
+
+*/

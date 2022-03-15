@@ -1,0 +1,17 @@
+.gallery-top {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-top__item {
+  display: flex;
+  align-self: start;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+
+  @media (max-width: 1080px) {
+    max-width: 100%;
+  }
+}
+

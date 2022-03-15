@@ -1,0 +1,21 @@
+.gallery-thumbs {
+  margin-top: 20px;
+}
+
+.gallery-thumbs__list.swiper-wrapper {
+  justify-content: center;
+}
+
+.gallery-thumbs__item {
+  cursor: pointer;
+  opacity: 0.5;
+
+  @media (max-width: 1080px) {
+    max-width: 221px;
+  }
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  border: 2px solid #98b500;
+  opacity: 1.0;
+}

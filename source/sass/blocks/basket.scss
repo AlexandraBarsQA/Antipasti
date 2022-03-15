@@ -1,0 +1,176 @@
+.basket {
+
+}
+
+.basket__list {
+  margin-top: 120px;
+  margin-bottom: 73px;
+
+  @media (max-width: 1600px) {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: 1280px) {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 1080px) {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 992px) {
+
+  }
+
+  @media (max-width: 767px) {
+
+  }
+
+  @media (max-width: 480px) {
+
+  }
+}
+
+.basket__btn-close {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: -2vw;
+  right: -0.5vw;
+  background: url(../img/btn-close.png) transparent;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border: none;
+  cursor: pointer;
+
+  @media (max-width: 1600px) {
+    width: 29px;
+    height: 29px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 23px;
+    height: 23px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 35px;
+    height: 35px;
+  }
+
+  @media (max-width: 992px) {
+    width: 29px;
+    height: 29px;
+  }
+
+  @media (max-width: 767px) {
+    width: 23px;
+    height: 23px;
+  }
+}
+
+.basket__btn-close::before,
+.basket__btn-close::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: var(--basic-main);
+  transform: rotate(45deg);
+
+  @media (max-width: 1600px) {
+    width: 37px;
+    height: 4px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 30px;
+    height: 3px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 45px;
+    height: 5px;
+  }
+
+  @media (max-width: 992px) {
+    width: 37px;
+    height: 4px;
+  }
+
+  @media (max-width: 767px) {
+    width: 30px;
+    height: 3px;
+  }
+}
+
+.basket__btn-close::after {
+  transform: rotate(-45deg);
+}
+
+.basket__btn-close span {
+  visibility: hidden;
+}
+
+p.basket__sum {
+  font-size: 67px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  text-align: center;
+  color: #000000;
+
+  @media (max-width: 1600px) {
+    font-size: 55px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 45px;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 40px;
+  }
+}
+
+p.basket__sum span {
+  font-weight: 300;
+  color: var(--basic-brand);
+
+  @media (max-width: 380px) {
+    display: block;
+  }
+}
+
+.basket .price-card {
+  width: 143px;
+  margin-top: 0;
+
+  @media (max-width: 1600px) {
+    width: 119px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 95px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 143px;
+    font-size: 25px;
+  }
+
+  @media (max-width: 992px) {
+    width: 119px;
+    font-size: 21px;
+  }
+
+  @media (max-width: 767px) {
+    width: 95px;
+    font-size: 17px;
+  }
+}
+
