@@ -1,4 +1,5 @@
 const gulp = require("gulp");
+const ghPages = require('gh-pages');
 const plumber = require("gulp-plumber");
 const sourcemap = require("gulp-sourcemaps");
 const sass = require("gulp-sass");
