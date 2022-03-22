@@ -9,7 +9,7 @@
   justify-content: center;
   font-family: inherit;
   font-size: 29px;
-  line-height: 32 / 29 * 1;
+  line-height: 30 / 29 * 1;
   font-weight: 700;
   font-style: italic;
   color: #ffffff;
@@ -38,10 +38,12 @@
 
 .label-goods--hot::before {
   content: "только что из печки";
-  width: 291px;
-  height: 257px;
-  bottom: 50%;
-  right: -10%;
+  //width: 291px;
+  //height: 257px;
+  width: 15.16vw;
+  height: 13.39vw;
+  bottom: 53%;
+  right: -5%;
   background-image: url("../img/label_oven2.png");
   padding-left: 6.7vw;
   padding-top: 1.82vw;
@@ -55,11 +57,6 @@
   @media (max-width: 1280px) {
     width: 189px;
     height: 167px;
-    bottom: 40%;
-  }
-
-  @media (max-width: 1180px) {
-
   }
 
   @media (max-width: 1080px) {
@@ -71,11 +68,16 @@
   }
 
   @media (max-width: 992px) {
+    bottom: 65%;
     right: 0;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 840px) {
+    bottom: 60%;
+  }
 
+  @media (max-width: 767px) {
+    bottom: 55%;
   }
 
   @media (max-width: 680px) {
@@ -87,15 +89,12 @@
     padding-top: 25px;
   }
 
-  @media (max-width: 580px) {
-
-  }
-
-  @media (max-width: 480px) {
-    right: 0;
+  @media (max-width: 540px) {
+    bottom: 65%;
   }
 
   @media (max-width: 380px) {
+    bottom: 60%;
     right: -5%;
   }
 }
@@ -104,8 +103,8 @@
   content: "хит";
   width: 110px;
   height: 91px;
-  top: 0;
-  right: 5%;
+  top: -6%;
+  right: -5%;
   background-image: url("../img/crown.svg");
   padding-top: 1.82vw;
 
@@ -125,9 +124,23 @@
     padding-top: 25px;
   }
 
+  @media (max-width: 992px) {
+    top: -4%;
+    right: 3%;
+  }
+
+  @media (max-width: 767px) {
+    top: -4%;
+    right: -3%;
+  }
+
   @media (max-width: 680px) {
     width: 72px;
     height: 59px;
+  }
+
+  @media (max-width: 540px) {
+    right: 0;
   }
 }
 
@@ -136,7 +149,7 @@
   width: 199px;
   height: 45px;
   top: 5%;
-  right: -10%;
+  right: -5%;
   background-image: url("../img/label_cooking.svg");
   background-position: 50% 100%;
 
@@ -153,6 +166,10 @@
   @media (max-width: 1080px) {
     width: 169px;
     height: 36px;
+  }
+
+  @media (max-width: 992px) {
+    right: 0;
   }
 
   @media (max-width: 680px) {

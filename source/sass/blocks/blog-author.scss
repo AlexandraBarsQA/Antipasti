@@ -33,6 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -20px;
 }
 
 .blog-author__img:nth-child(1) {
@@ -91,6 +92,7 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: 50% 50%;
+  top: 20px;
   z-index: 20;
 
   @media (max-width: 1080px) {
@@ -104,7 +106,6 @@
 }
 
 .blog-author__persons::after {
-  top: 0;
   right: -10px;
   transform: scaleX(-1);
 }
@@ -116,7 +117,7 @@
 
   column-count: 2;
   column-gap: 6vw;
-  margin-top: 4.53vw;
+  margin-top: 2.5vw;
 
   @media (max-width: 1080px) {
     margin-top: 8vw;
@@ -126,7 +127,6 @@
     //grid-template-columns: 1fr;
 
     column-count: 1;
-    margin-top: 8vw;
   }
 
   @media (max-width: 480px) {
@@ -138,21 +138,21 @@
 .blog-author__desc p {
   font-family: inherit;
   font-size: 33px;
-  line-height: 42 / 33 * 1;
+  line-height: 40 / 33 * 1;
   font-weight: 300;
   font-style: italic;
-  margin-bottom: 2.6vw;
+  margin-bottom: 2vw;
 
   @media (max-width: 1600px) {
-    font-size: 28px;
+    font-size: 27px;
   }
 
   @media (max-width: 1280px) {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   @media (max-width: 1080px) {
-    font-size: 28px;
+    font-size: 27px;
   }
 
   @media (max-width: 767px) {
@@ -227,7 +227,6 @@ a.blog-author__leaf {
     width: 121px;
     height: 92px;
     padding-top: 25px;
-    margin-top: 0;
   }
 }
 

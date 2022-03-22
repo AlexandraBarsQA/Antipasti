@@ -3,11 +3,10 @@
   width: 100%;
   background-color: #ffffff;
   padding-bottom: 35px;
-  overflow: hidden;
 }
 
 .gallery-goods--card {
-  padding-top: 100px;
+  padding-top: 85px;
   padding-bottom: 73px;
 }
 
@@ -42,6 +41,11 @@
 
 .gallery-goods__title--gallery {
   max-width: 60%;
+  padding-right: 13vw;
+
+  @media (max-width: 1600px) {
+    padding-right: 0;
+  }
 
   @media (max-width: 992px) {
    max-width: 85%;
@@ -53,7 +57,19 @@
 }
 
 .gallery-goods__list {
-  margin-top: 50px;
+  margin-top: 80px;
+
+  @media (max-width: 1600px) {
+    margin-top: 60px;
+  }
+
+  @media (max-width: 1280px) {
+    margin-top: 40px;
+  }
+
+  @media (max-width: 1180px) {
+    margin-top: 60px;
+  }
 }
 
 .gallery-goods--basket .goods-list li:hover .goods-list__name {

@@ -1,23 +1,26 @@
 .form-search {
   position: relative;
-  //width: 445px;
-  width: 23.18vw;
+  //width: 23.18vw;
+  width: 445px;
   display: flex;
   align-items: center;
-  padding: 8px 10px;
   border-bottom: 2px solid #2b2a29;
   margin-left: 12px;
 
+  @media (max-width: 1600px) {
+    width: 356px;
+  }
+
   @media (max-width: 1280px) {
-
+    width: 298px;
   }
 
   @media (max-width: 1180px) {
-    width: 320px;
+    width: 260px;
   }
 
-  @media (max-width: 1180px) {
-    width: 38vw;
+  @media (max-width: 1080px) {
+    width: 280px;
   }
 
   @media (max-width: 992px) {
@@ -34,16 +37,18 @@
   width: 100%;
   height: 45px;
   font-size: 20px;
-  line-height: 28 / 20 * 1;
+  line-height: 24 / 20 * 1;
   color: #2c3370;
   background: transparent;
+  padding-left: 8px;
+  padding-right: 8px;
   border: 0;
   outline: 0;
   cursor: pointer;
   pointer-events: auto;
 
   @media (max-width: 1180px) {
-    font-size: 28px;
+    font-size: 23px;
   }
 
   @media (max-width: 540px) {
@@ -55,19 +60,27 @@
   display: flex;
   width: 95%;
   align-self: center;
-  font-size: 1.88vw;
-  line-height: 43 / 36 * 1;
+  font-size: 36px;
+  line-height: 36 / 36 * 1;
   font-weight: 700;
   font-style: italic;
   text-align: center;
   color: #2c3370;
 
+  @media (max-width: 1600px) {
+    font-size: 26px;
+  }
+
   @media (max-width: 1280px) {
     font-size: 20px;
   }
 
+  @media (max-width: 1180px) {
+    font-size: 23px;
+  }
+
   @media (max-width: 992px) {
-    font-size: 37px;
+    font-size: 36px;
   }
 
   @media (max-width: 767px) {
@@ -93,6 +106,21 @@
   border: none;
   cursor: pointer;
   padding: 0;
+
+  @media (max-width: 1600px) {
+    width: 27px;
+    height: 26px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 23px;
+    height: 22px;
+  }
+
+  @media (max-width: 992px) {
+    width: 34px;
+    height: 33px;
+  }
 }
 
 

@@ -16,13 +16,41 @@ li.accent-advantage {
 .accent-advantage__img {
   position: relative;
   display: flex;
+  width: 100%;
   flex-grow: 0;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  transform: rotate(3.5deg);
 }
 
-.accent-advantage__info {
+.accent-advantage--goods .accent-advantage__img {
+  width: 133px;
+  height: 194px;
+
+  @media (max-width: 1600px) {
+    width: 106px;
+    height: 155px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 89px;
+    height: 130px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 106px;
+    height: 155px;
+  }
+
+  @media (max-width: 767px) {
+    width: 133px;
+    height: 194px;
+  }
+}
+
+.accent-advantage--goods .accent-advantage__info {
   transform: rotate(-3.5deg);
 }
 
@@ -64,7 +92,7 @@ li.accent-advantage {
 
 .accent-advantage p {
   font-size: 34px;
-  line-height: 37 / 34 * 1;
+  line-height: 36 / 34 * 1;
   font-weight: 300;
 
   @media (max-width: 1600px) {
@@ -72,7 +100,7 @@ li.accent-advantage {
   }
 
   @media (max-width: 1280px) {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   @media (max-width: 767px) {

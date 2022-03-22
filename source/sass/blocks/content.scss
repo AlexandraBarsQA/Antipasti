@@ -1,3 +1,7 @@
+.content {
+  padding-top: 25px;
+}
+
 .content h1 {
   font-family: inherit;
   font-size: 58px;
@@ -54,6 +58,11 @@
   @media (max-width: 767px) {
 
   }
+}
+
+
+.content p.goods-buy__price {
+  margin-bottom: 20px;
 }
 
 .content .caption p {

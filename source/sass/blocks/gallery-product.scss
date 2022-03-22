@@ -28,7 +28,7 @@
 }
 
 .gallery-product li:nth-child(2) {
-  margin-top: 20px;
+  //margin-top: 20px;
 
   @media (max-width: 767px) {
     min-height: 503px;
@@ -101,6 +101,7 @@
 
 .gallery-product__item--3 p {
   top: -6.41vw;
+  top: 20%;
   left: 5.21vw;
 
   @media (max-width: 1080px) {
