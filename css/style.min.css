@@ -603,7 +603,7 @@ input[name="toggle"] {
     .form-search input[type="search"] {
       font-size: 26px; } }
 
-.form-search input[type="search"]::-webkit-input-placeholder {
+.form-search input[type="search"] {
   display: flex;
   width: 95%;
   align-self: center;
@@ -612,27 +612,28 @@ input[name="toggle"] {
   font-weight: 700;
   font-style: italic;
   text-align: center;
-  color: #2c3370; }
+  color: #2c3370;
+  padding-bottom: 5px; }
   @media (max-width: 1600px) {
-    .form-search input[type="search"]::-webkit-input-placeholder {
+    .form-search input[type="search"] {
       font-size: 26px; } }
   @media (max-width: 1280px) {
-    .form-search input[type="search"]::-webkit-input-placeholder {
+    .form-search input[type="search"] {
       font-size: 20px; } }
   @media (max-width: 1180px) {
-    .form-search input[type="search"]::-webkit-input-placeholder {
+    .form-search input[type="search"] {
       font-size: 23px; } }
   @media (max-width: 992px) {
-    .form-search input[type="search"]::-webkit-input-placeholder {
+    .form-search input[type="search"] {
       font-size: 36px; } }
   @media (max-width: 767px) {
-    .form-search input[type="search"]::-webkit-input-placeholder {
+    .form-search input[type="search"] {
       font-size: 32px; } }
   @media (max-width: 480px) {
-    .form-search input[type="search"]::-webkit-input-placeholder {
+    .form-search input[type="search"] {
       font-size: 26px; } }
   @media (max-width: 380px) {
-    .form-search input[type="search"]::-webkit-input-placeholder {
+    .form-search input[type="search"] {
       font-size: 20px; } }
 
 .form-search__btn {
@@ -1713,8 +1714,8 @@ a.blog-author__leaf {
   content: "только что из печки";
   width: 15.16vw;
   height: 13.39vw;
-  bottom: 53%;
-  right: -5%;
+  bottom: 47%;
+  right: -13%;
   background-image: url("../img/label_oven2.png");
   padding-left: 6.7vw;
   padding-top: 1.82vw;
@@ -2136,8 +2137,7 @@ a.blog-author__leaf {
 .goods-list {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  grid-template-columns: repeat(4, minmax(160px, 19vw));
   -moz-column-gap: 4.69vw;
        column-gap: 4.69vw;
   row-gap: 110px;
@@ -2171,7 +2171,7 @@ a.blog-author__leaf {
       grid-template-columns: 320px; } }
   @media (max-width: 380px) {
     .goods-list {
-      grid-template-columns: 260px; } }
+      grid-template-columns: 240px; } }
 
 @media (max-width: 1080px) {
   .goods-list--basket {
@@ -4862,7 +4862,7 @@ li.accent-advantage {
 
 .card-goods__wrap {
   display: grid;
-  grid-template-columns: 34.38vw repeat(2, 1fr);
+  grid-template-columns: 600px repeat(2, 1fr);
   justify-content: end;
   -moz-column-gap: 5.73vw;
        column-gap: 5.73vw;
@@ -4913,13 +4913,15 @@ li.accent-advantage {
   font-weight: 300;
   font-style: italic;
   color: #2b2a29;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-left: 2.3vw; }
   @media (max-width: 1600px) {
     .card-goods__desc {
       font-size: 28px; } }
   @media (max-width: 1280px) {
     .card-goods__desc {
-      font-size: 23px; } }
+      font-size: 23px;
+      margin-left: 0; } }
   @media (max-width: 1080px) {
     .card-goods__desc {
       max-width: 100%;
@@ -5036,6 +5038,16 @@ li.accent-advantage {
     .card-goods__direct li:nth-child(2) a::before {
       right: -35px; } }
 
+.card-goods__img {
+  width: 600px;
+  height: auto; }
+  @media (max-width: 1280px) {
+    .card-goods__img {
+      width: 480px; } }
+  @media (max-width: 1080px) {
+    .card-goods__img {
+      width: 100%; } }
+
 .goods-buy {
   text-align: center;
   transform: rotate(-3.5deg); }
@@ -5081,9 +5093,6 @@ li.accent-advantage {
   @media (max-width: 1280px) {
     .goods-buy__note {
       font-size: 17px; } }
-  @media (max-width: 1180px) {
-    .goods-buy__note {
-      font-size: 20px; } }
   @media (max-width: 1080px) {
     .goods-buy__note {
       font-size: 25px; } }
@@ -5126,11 +5135,15 @@ li.accent-advantage {
   z-index: 1; }
 
 .gallery-thumbs__item {
+  max-width: 220px;
   cursor: pointer;
   opacity: 0.5; }
+  @media (max-width: 1280px) {
+    .gallery-thumbs__item {
+      max-width: 147px; } }
   @media (max-width: 1080px) {
     .gallery-thumbs__item {
-      max-width: 221px; } }
+      max-width: 220px; } }
 
 .gallery-thumbs__item--active {
   border: 2px solid #98b500;
