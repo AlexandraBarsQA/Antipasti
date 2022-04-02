@@ -1,8 +1,7 @@
 .goods-list {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  grid-template-columns: repeat(4, minmax(160px, 19vw));
   column-gap: 4.69vw;
   row-gap: 110px;
   justify-content: center;
@@ -39,7 +38,7 @@
   }
 
   @media (max-width: 380px) {
-    grid-template-columns: 260px;
+    grid-template-columns: 240px;
   }
 }
 

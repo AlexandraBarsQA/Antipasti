@@ -30,7 +30,7 @@
 
 .card-goods__wrap {
   display: grid;
-  grid-template-columns: 34.38vw repeat(2, 1fr);
+  grid-template-columns: 600px repeat(2, 1fr);
   justify-content: end;
   column-gap: 5.73vw;
   padding-top: 35px;
@@ -61,6 +61,10 @@
     display: block;
   }
 
+  @media (max-width: 540px) {
+
+  }
+
   @media (max-width: 480px) {
     padding-bottom: 50px;
   }
@@ -86,6 +90,7 @@
   font-style: italic;
   color: #2b2a29;
   margin-top: 10px;
+  margin-left: 2.3vw;
 
   @media (max-width: 1600px) {
     font-size: 28px;
@@ -93,6 +98,7 @@
 
   @media (max-width: 1280px) {
     font-size: 23px;
+    margin-left: 0;
   }
 
   @media (max-width: 1080px) {
@@ -241,5 +247,22 @@
 .card-goods__direct li:nth-child(2) a {
   @media (max-width: 992px) {
 
+  }
+}
+
+.card-goods__img {
+  width: 600px;
+  height: auto;
+
+  @media (max-width: 1600px) {
+    //width: 480px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 480px;
+  }
+
+  @media (max-width: 1080px) {
+    width: 100%;
   }
 }
