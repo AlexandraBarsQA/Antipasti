@@ -10,7 +10,8 @@ li.accent-advantage {
   position: relative;
   display: flex;
   text-align: center;
-  justify-content: center;
+  //justify-content: center;
+  margin-top: 125px;
 }
 
 .accent-advantage__img {
@@ -92,7 +93,7 @@ li.accent-advantage {
 
 .accent-advantage p {
   font-size: 34px;
-  line-height: 36 / 34 * 1;
+  line-height: 34 / 34 * 1;
   font-weight: 300;
 
   @media (max-width: 1600px) {

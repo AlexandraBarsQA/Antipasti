@@ -23,14 +23,18 @@
 
 .about-us::after {
   height: 113px;
-  bottom: -35px;
+  bottom: -60px;
   background-image: url("../img/bottom-edge-beige.png");
+}
+
+.about-us--inner::after {
+  bottom: -33px;
 }
 
 .about-us__blog {
   position: relative;
-  padding-left: 3.65vw;
-  padding-right: 3.65vw;
+  padding-left: 2.65vw;
+  padding-right: 2.3vw;
   padding-bottom: 20px;
   z-index: 20;
 

@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   background-color: #ffffff;
-  padding-bottom: 35px;
+  //padding-bottom: 35px;
 }
 
 .gallery-goods--card {
@@ -41,7 +41,9 @@
 
 .gallery-goods__title--gallery {
   max-width: 60%;
-  padding-right: 13vw;
+  padding-right: 8vw;
+  padding-left: 13.8vw;
+  margin-top: 20px;
 
   @media (max-width: 1600px) {
     padding-right: 0;
@@ -57,7 +59,32 @@
 }
 
 .gallery-goods__list {
-  margin-top: 80px;
+  padding-left: 1.56vw;
+  padding-right: 1.56vw;
+  margin-top: 67px;
+
+  @media (max-width: 1600px) {
+    margin-top: 60px;
+  }
+
+  @media (max-width: 1280px) {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 1180px) {
+    margin-top: 60px;
+  }
+
+  @media (max-width: 767px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.gallery-goods__list--inner {
+  margin-top: 107px;
 
   @media (max-width: 1600px) {
     margin-top: 60px;

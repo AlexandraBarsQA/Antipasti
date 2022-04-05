@@ -56,23 +56,6 @@
 */
 
 
-.menu-inner__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
-
-  @media (max-width: 1080px) {
-
-  }
-
-  @media (max-width: 680px) {
-    flex-direction: column;
-  }
-}
-
-
 /*
 .menu-inner__list--culinary {
   grid-template-columns: repeat(7, auto);
@@ -93,8 +76,9 @@
 */
 
 .menu-inner__list li {
-  padding-left: 15px;
-  padding-right: 15px;
+  //padding-left: 15px;
+  //padding-right: 15px;
+  margin-right: 3.2vw;
   margin-bottom: 20px;
 
   @media (max-width: 1180px) {
@@ -106,6 +90,9 @@
   }
 }
 
+.menu-inner__list li:last-child {
+  margin-right: 0;
+}
 
 .menu-inner a {
   font-family: inherit;
