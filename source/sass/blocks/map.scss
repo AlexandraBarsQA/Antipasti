@@ -1,6 +1,10 @@
 .map {
   position: relative;
   min-height: 547px;
+
+  @media (max-width: 480px) {
+    min-height: 507px;
+  }
 }
 
 .map > a {

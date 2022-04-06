@@ -1,7 +1,7 @@
 .caption {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  column-gap: 7.55vw;
+  column-gap: 8.5vw;
   row-gap: 2.6vw;
   justify-content: center;
 
@@ -53,8 +53,8 @@
   font-weight: 300;
   color: #98b500;
 
-  @media (max-width: 1080px) {
-
+  @media (max-width: 480px) {
+    display: block;
   }
 }
 
@@ -63,6 +63,7 @@
   display: inline-block;
   font-size: 34px;
   font-weight: 300;
+  font-style: italic;
   color: #2c3370;
   margin-left: 60px;
 

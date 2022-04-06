@@ -66,7 +66,11 @@ a.menu {
     font-size: 32px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 580px) {
+    font-size: 34px;
+  }
+
+  @media (max-width: 380px) {
     font-size: 28px;
   }
 }

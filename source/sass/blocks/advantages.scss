@@ -56,10 +56,6 @@
   @media (max-width: 992px) {
     font-size: 25px;
   }
-
-  @media (max-width: 480px) {
-    font-size: 23px;
-  }
 }
 
 .advantages a {
@@ -93,7 +89,7 @@
   }
 
   @media (max-width: 480px) {
-
+    font-size: 34px;
   }
 }
 
@@ -123,13 +119,13 @@
   }
 
   @media (max-width: 480px) {
-    padding-left: 100px;
+    padding-left: 27vw;
   }
 
   @media (max-width: 380px) {
     text-align: center;
     padding-left: 0;
-    margin-top: 140px;
+    margin-top: 180px;
   }
 }
 
@@ -162,26 +158,27 @@
     left: 0;
   }
 
-  @media (max-width: 992px) {
-    width: 101px;
-  }
-
   @media (max-width: 840px) {
-    width: 78px;
     background-position: 100% 100%;
-    left: 7%;
-  }
-
-  @media (max-width: 580px) {
-    //display: none;
     left: 5%;
   }
 
+  @media (max-width: 680px) {
+    left: 3%;
+  }
+
+  @media (max-width: 580px) {
+    left: 0;
+  }
+
   @media (max-width: 480px) {
-    width: 65px;
+    width: 124px;
+    width: 25.8vw;
+    left: -3%;
   }
 
   @media (max-width: 380px) {
+    width: 101px;
     bottom: 105%;
     left: 50%;
     transform: translateX(-50%);
@@ -208,8 +205,9 @@
     height: 176px;
   }
 
-  @media (max-width: 992px) {
-
+  @media (max-width: 480px) {
+    width: 126px;
+    width: 26.3vw;
   }
 }
 
@@ -233,8 +231,9 @@
     height: 146px;
   }
 
-  @media (max-width: 992px) {
-
+  @media (max-width: 480px) {
+    width: 106px;
+    width: 22.3vw;
   }
 }
 
@@ -258,8 +257,8 @@
     height: 155px;
   }
 
-  @media (max-width: 992px) {
-
+  @media (max-width: 480px) {
+    width: 24.5vw;
   }
 }
 
@@ -283,8 +282,8 @@
     height: 137px;
   }
 
-  @media (max-width: 992px) {
-
+  @media (max-width: 480px) {
+    width: 20.4vw;
   }
 }
 
@@ -308,8 +307,8 @@
     height: 190px;
   }
 
-  @media (max-width: 992px) {
-
+  @media (max-width: 480px) {
+    width: 25.8vw;
   }
 }
 
@@ -333,7 +332,8 @@
     height: 156px;
   }
 
-  @media (max-width: 992px) {
-
+  @media (max-width: 480px) {
+    width: 24.3vw;
   }
 }
+

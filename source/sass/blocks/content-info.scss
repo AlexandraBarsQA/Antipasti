@@ -7,7 +7,7 @@
 .content-info input {
   font-family: inherit;
   font-size: 25px;
-  line-height: 34 / 25 * 1;
+  line-height: 32 / 25 * 1;
   font-weight: 300;
   color: #292929;
 
@@ -31,21 +31,17 @@
     font-size: 21px;
   }
 
-  @media (max-width: 580px) {
+  @media (max-width: 380px) {
     font-size: 19px;
-  }
-
-  @media (max-width: 480px) {
-
   }
 }
 
 .content-info p:not(:last-child),
 .content-info ul:not(:last-child) {
-  margin-bottom: 38px;
+  margin-bottom: 25px;
 
   @media (max-width: 767px) {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 }
 
@@ -60,7 +56,6 @@
 .content-info li {
   position: relative;
   padding-left: 35px;
-  margin-bottom: 7px;
 
   @media (max-width: 767px) {
     padding-left: 25px;
@@ -88,10 +83,31 @@
 .content-info input {
   font-size: 23px;
   color: #333333;
-  height: 34px;
-  border-bottom: 1px solid #292929;
+  height: 32px;
+  border-bottom: 2px solid #292929;
 }
 
 .content-info a {
   color: #2c3370;
+}
+
+.content-info #full-name,
+.content-info #user-number {
+  max-width: 130px;
+
+  @media (max-width: 992px) {
+    max-width: 90px;
+  }
+}
+
+.content-info #address {
+  width: 670px;
+
+  @media (max-width: 992px) {
+    width: 500px;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 }

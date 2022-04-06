@@ -20,4 +20,12 @@ p.price-card {
   @media (max-width: 680px) {
     font-size: 40px;
   }
+
+  @media (max-width: 480px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 40px;
+  }
 }

@@ -2,6 +2,14 @@
   flex: 1 1 auto;
 }
 
+.page-main--basket .page-main__content--inner {
+  padding-bottom: 40px;
+}
+
+.page-main--basket .page-main__content::after {
+
+}
+
 .page-main__about {
   padding-top: 3vw;
   //padding-bottom: 2vw;
@@ -13,6 +21,11 @@
   @media (max-width: 1080px) {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  @media (max-width: 480px) {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -36,6 +49,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 10;
+
+  @media (max-width: 480px) {
+    top: -34px;
+  }
 }
 
 .page-main__content--inner::before {
@@ -61,24 +78,36 @@
 }
 
 .page-main__advantages {
-  padding-top: 125px;
+  //padding-top: 125px;
+  padding-top: 6.5vw;
   padding-bottom: 83px;
 
   @media (max-width: 1600px) {
-
+    padding-top: 120px;
+    padding-bottom: 65px;
   }
 
   @media (max-width: 1280px) {
-    padding-top: 60px;
+    padding-top: 83px;
     padding-bottom: 50px;
   }
 
   @media (max-width: 992px) {
-    padding-top: 80px;
+    padding-top: 120px;
     padding-bottom: 65px;
   }
 
-  @media (max-width: 380px) {
-    padding-top: 50px;
+  @media (max-width: 580px) {
+    padding-top: 125px;
+    padding-bottom: 83px;
   }
+
+  @media (max-width: 480px) {
+    padding-top: 120px;
+    padding-bottom: 65px;
+  }
+}
+
+.page-main__delivery::after {
+  bottom: -31px;
 }

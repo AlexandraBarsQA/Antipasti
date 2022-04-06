@@ -15,11 +15,14 @@
   z-index: 10;
 }
 
+
+/*
 .order::before {
   height: 91px;
   top: -35px;
   background-image: url("../img/top-edge-beige.png");
 }
+*/
 
 .order::after {
   height: 113px;
@@ -29,22 +32,27 @@
 
 .order__user {
   position: relative;
-  padding-top: 65px;
+  padding-top: 105px;
   padding-left: 15vw;
   padding-right: 15vw;
-  padding-bottom: 55px;
+  padding-bottom: 72px;
   z-index: 20;
 
   @media (max-width: 1600px) {
+    padding-top: 84px;
     padding-left: 9.38vw;
     padding-right: 9.38vw;
   }
 
   @media (max-width: 1280px) {
+    padding-top: 70px;
     padding-left: 4.69vw;
     padding-right: 4.69vw;
-    padding-top: 35px;
     padding-bottom: 30px;
+  }
+
+  @media (max-width: 1080px) {
+    padding-top: 90px;
   }
 }
 
@@ -84,5 +92,5 @@
 }
 
 .order__form {
-  padding-top: 45px;
+  padding-top: 32px;
 }

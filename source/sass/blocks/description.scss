@@ -87,6 +87,14 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% 100%;
+
+  @media (max-width: 480px) {
+    padding-right: 0.8vw;
+  }
+
+  @media (max-width: 380px) {
+    padding-right: 1.8vw;
+  }
 }
 
 .description--2 {
@@ -97,7 +105,6 @@
 .description--3 {
   padding: 8.8em 3.2em 6.8em 4.6em;
   background-image: url("../img/quote-3.png");
-
 }
 
 

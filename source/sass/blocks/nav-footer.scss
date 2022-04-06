@@ -18,8 +18,8 @@
     padding-bottom: 42px;
   }
 
-  @media (max-width: 1180px) {
-
+  @media (max-width: 480px) {
+    padding-bottom: 30px;
   }
 }
 
@@ -119,10 +119,6 @@
     justify-content: center;
     text-align: center;
   }
-
-  @media (max-width: 480px) {
-
-  }
 }
 
 .nav-footer__content a {
@@ -147,7 +143,11 @@
   }
 
   @media (max-width: 1180px) {
-    font-size: 26px;
+    font-size: 34px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 34px;
   }
 }
 
@@ -157,6 +157,10 @@
 
   @media (max-width: 992px) {
     margin-bottom: 10px;
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 0;
   }
 }
 

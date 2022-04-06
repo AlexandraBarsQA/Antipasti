@@ -15,6 +15,11 @@
   @media (max-width: 1080px) {
     padding-bottom: 80px;
   }
+
+  @media (max-width: 480px) {
+    padding-top: 35px;
+    padding-bottom: 50px;
+  }
 }
 
 .business p {
@@ -37,7 +42,7 @@
     font-size: 25px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 480px) {
 
   }
 }
@@ -45,7 +50,7 @@
 .business a {
   color: #98b500;
 
-  @media (max-width: 540px) {
+  @media (max-width: 480px) {
     display: block;
   }
 }
