@@ -12,7 +12,7 @@
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  z-index: 10;
+  z-index: 50;
 }
 
 .products::before {
@@ -24,7 +24,7 @@
 
 .products::after {
   height: 113px;
-  bottom: -40px;
+  bottom: -30px;
   background-image: url("../img/bottom-edge-beige.png");
   background-size: cover;
 }
@@ -33,7 +33,7 @@
   position: relative;
   padding-top: 25px;
   padding-bottom: 10px;
-  z-index: 20;
+  z-index: 80;
 }
 
 .products h2 {

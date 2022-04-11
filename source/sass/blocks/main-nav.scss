@@ -116,9 +116,12 @@
 }
 
 .main-nav__logo {
+  margin-left: 2vw;
+
   @media (max-width: 1080px) {
     grid-column: 1;
     grid-row: 2;
+    margin-left: 0;
   }
 
   @media (max-width: 680px) {

@@ -7,8 +7,24 @@
 }
 
 .gallery-goods--card {
-  padding-top: 85px;
-  padding-bottom: 73px;
+  padding-top: 70px;
+  //padding-bottom: 100px;
+  padding-bottom: 5.2vw;
+
+
+  @media (max-width: 1600px) {
+    //padding-bottom: 80px;
+    padding-bottom: 3vw;
+  }
+
+  @media (max-width: 1280px) {
+    //padding-bottom: 67px;
+    padding-bottom: 1.5vw;
+  }
+
+  @media (max-width: 1080px) {
+    padding-bottom: 100px;
+  }
 }
 
 .gallery-goods--basket {

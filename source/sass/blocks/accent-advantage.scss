@@ -117,3 +117,10 @@ li.accent-advantage {
   color: #98b500;
   text-decoration: underline;
 }
+
+.accent-advantage--goods {
+  @media (max-width: 767px) {
+    margin: 0 auto;
+  }
+}
+

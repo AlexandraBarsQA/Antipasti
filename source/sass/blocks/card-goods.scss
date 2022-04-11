@@ -2,6 +2,10 @@
   padding-bottom: 35px;
 }
 
+.card-goods__slider {
+  margin-right: 5.2vw;
+}
+
 .card-goods h1 {
   font-family: inherit;
   font-size: 58px;
@@ -30,8 +34,8 @@
 
 .card-goods__wrap {
   display: grid;
-  grid-template-columns: 600px repeat(2, 1fr);
-  justify-content: end;
+  grid-template-columns: min-content 1fr 1fr;
+  justify-content: start;
   column-gap: 5.73vw;
   padding-top: 35px;
   padding-left: 7vw;
@@ -61,10 +65,6 @@
     display: block;
   }
 
-  @media (max-width: 540px) {
-
-  }
-
   @media (max-width: 480px) {
     padding-bottom: 50px;
   }
@@ -82,15 +82,15 @@
 }
 
 .card-goods__desc {
-  max-width: 380px;
+  //max-width: 380px;
   font-family: inherit;
   font-size: 34px;
-  line-height: 38 / 34 * 1;
+  line-height: 40 / 34 * 1;
   font-weight: 300;
   font-style: italic;
   color: #2b2a29;
+  //margin-left: 10%;
   margin-top: 10px;
-  margin-left: 2.3vw;
 
   @media (max-width: 1600px) {
     font-size: 28px;
@@ -98,13 +98,13 @@
 
   @media (max-width: 1280px) {
     font-size: 23px;
-    margin-left: 0;
   }
 
   @media (max-width: 1080px) {
     max-width: 100%;
     font-size: 28px;
     margin-top: 0;
+    margin-left: 0;
   }
 
   @media (max-width: 767px) {
@@ -120,7 +120,7 @@
 }
 
 .card-goods__desc p:not(:last-child) {
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 
   @media (max-width: 1600px) {
     margin-bottom: 35px;
@@ -142,11 +142,14 @@
 .card-goods__buy {
   display: flex;
   flex-direction: column;
-  justify-self: flex-end;
-  max-width: 384px;
+  justify-self: flex-start;
+  //max-width: 384px;
   margin-top: -20px;
 
+  //margin-left: -2vw;
+
   @media (max-width: 1080px) {
+    //justify-self: center;
     margin-top: 0;
   }
 
@@ -168,8 +171,8 @@
   line-height: 28 / 25 * 1;
   font-weight: 300;
   font-style: italic;
-  padding-left: 13.5vw;
-  padding-right: 13.5vw;
+  padding-left: 15.5vw;
+  padding-right: 15.5vw;
 
   @media (max-width: 1600px) {
     font-size: 21px;
@@ -252,14 +255,15 @@
 
 .card-goods__img {
   width: 600px;
+  //width: 31.25vw;
   height: auto;
 
   @media (max-width: 1600px) {
-    //width: 480px;
+    width: 480px;
   }
 
   @media (max-width: 1280px) {
-    width: 480px;
+    width: 400px;
   }
 
   @media (max-width: 1080px) {
