@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <title>Antipasti</title>
+  <link rel="preload" href="/fonts/Candara.woff2" as="font" crossorigin>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page__body">
+  <div class="wrapper-body">
+    <header class="page-header">
+      <div class="page-header__top header-top">
+        <div class="header-top__form header-top__form--catalog">
+          <p>Едем с классом на природу! У вас есть, к примеру:</p>
+          <form class="form-search" action="" method="get">
+            <label class="visually-hidden" for="search-form-input">Поле поиска</label>
+            <input type="search" value="морс из малины" id="search-form-input" required="">
+            <button type="submit" class="form-search__btn">Найти</button>
+          </form>
+        </div>
+      </div>
+      <div class="page-header__nav navigation">
+        <nav class="navigation__nav main-nav main-nav--closed">
+          <button class="main-nav__toggle" type="button" aria-label="Открыть/скрыть меню"></button>
+          <ul class="main-nav__list menu">
+            <li>
+              <a class="menu__link-active" href="catalog.html">Пекарня</a>
+            </li>
+            <li>
+              <a href="#">Гастромаркет</a>
+            </li>
+            <li>
+              <a href="catalog-culinary.html">Кулинария</a>
+            </li>
+          </ul>
+          <a class="main-nav__logo logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип Антипасти">
+          </a>
+          <p class="main-nav__phone">Работаем с 8:00 до 22:00
+            <a href="tel:+78003451123" title="Телефон для связи">8 800 345 11 23</a>
+          </p>
+          <a class="menu" href="delivery.html" title="Доставка">Доставка</a>
+          <a class="main-nav__basket" href="basket.html">
+            <img src="img/basket.svg" alt="корзина товаров">
+            <span>12</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main">
+      <div class="page-main__content page-main__content--about">
+        <article class="content container">
+          <ul class="crumbs breadcrumb">
+            <li class="crumb-item">
+              <a href="index.html">Главная</a> /
+            </li>
+            <li class="crumb-item crumb-item--current">О нас
+            </li>
+          </ul>
+          <h1>О нас</h1>
+          <nav class="products__nav menu-inner menu-inner--closed">
+            <button class="menu-inner__toggle" type="button" aria-label="Открыть/скрыть меню"></button>
+            <ul class="menu-inner__list">
+              <li>
+                <a href="#">Оплата</a>
+              </li>
+              <li>
+                <a href="#">Договор оферты</a>
+              </li>
+              <li>
+                <a href="#">Персональные данные</a>
+              </li>
+              <li>
+                <a href="delivery.html">Доставка</a>
+              </li>
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </article>
+      </div>
+      <div class="swiper slider-about">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slider-about__item">
+            <img src="img/slider_about_1.jpg" alt="">
+          </div>
+          <div class="swiper-slide slider-about__item">
+            <img src="img/slider_about_2.jpg" alt="">
+          </div>
+          <div class="swiper-slide slider-about__item">
+            <img src="img/slider_about_3.jpg" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next slider-about__toggle slider-about__toggle--next"></div>
+        <div class="swiper-button-prev slider-about__toggle slider-about__toggle--prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <section class="page-main__about about-us about-us--inner about-us--about">
+        <h2 class="visually-hidden">Наше производство</h2>
+        <div class="about-us__blog blog-author blog-author--inner container">
+          <div class="blog-author__wrap">
+            <h2 class="title-main">
+              <span></span>
+              Что такое «антипасти»?<br> А мы сейчас вам всё расскажем и покажем!</h2>
+              <div class="blog-author__block">
+                <div class="blog-author__persons">
+                  <div class="blog-author__img">
+                    <img src="img/anna.png" alt="фотография Анны">
+                  </div>
+                  <div class="blog-author__img">
+                    <img src="img/marta.png" alt="фотография Маргариты">
+                  </div>
+                  <div class="blog-author__name name">
+                    <img src="img/name_avtor-2.svg" alt="Анна и Маргарита">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-author__desc">
+              <div>
+                <p> <strong>Антипасти</strong> (antipasti) — это классическая итальянская закуска. Пригодится всем, кто отправляется на природу с «домашними аготовками», хочет украсить праздничный стол, взять с собой на работу...</p>
+                <p>В Италии без антипасти немыслима ни одна трапеза! В буквальном переводе «антипасти» — «перед едой», то есть блюдо, употребляемое как прелюдия к основным сытным яствам.</p>
+              </div>
+              <div>
+                <p>Мы придумали и создали <strong>гастромаркет</strong> и предлагаем превосходные <a href="#" title="О продуктах">продукты</a> для вашего Антипасти. Особенно трепетно выбираем производителей, потому что любим готовить и вкусно поесть!</p>
+                <p>А ещё мы <a href="#" title="О пекарне">сами печём</a> хрустящий хлеб, багеты, пиццы, булочки и пирожки — к завтраку, обеду и ужину!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <div class="page-footer__nav nav-footer">
+          <div class="nav-footer__content container">
+            <article class="nav-footer__list">
+              <p class="nav-footer__copyright">© 2021. ИП Ларкина А.С.</p>
+              <p class="nav-footer__info">ИНН 122323214204<br> ОГРН 23821382199</p>
+            </article>
+            <ul class="nav-footer__list">
+              <li>
+                <a title="">О нас</a>
+              </li>
+              <li>
+                <a href="#" title="">Договор оферты</a>
+              </li>
+              <li>
+                <a href="#" title="">Обработка персональных данных</a>
+              </li>
+              <li>
+                <a href="#" title="">Контакты</a>
+              </li>
+            </ul>
+            <a class="nav-footer__logo logo logo--footer" href="index.html" title="">
+              <img src="img/logo-black.svg" alt="Логотип Антипасти">
+            </a>
+            <article class="nav-footer__list">
+              <h4>Каталог</h4>
+              <ul>
+                <li>
+                  <a href="catalog.html" title="">Пекарня</a>
+                </li>
+                <li>
+                  <a href="catalog-culinary.html" title="">Кулинария</a>
+                </li>
+                <li>
+                  <a href="#" title="">Гастромаркет</a>
+                </li>
+              </ul>
+            </article>
+            <article class="nav-footer__list">
+              <a class="nav-footer__tel" href="tel:+78003451123">8 800 345 11 23</a>
+              <a class="nav-footer__mail" href="#" title="info@antipasti-rzn.ru">info@antipasti-rzn.ru</a>
+              <a href="delivery.html" title="">Доставка</a>
+            </article>
+          </div>
+        </div>
+        <div class="page-footer__business business">
+          <p>В вашем бизнесе всё <a href="#" title="">работает само</a></p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/slider-about.min.js"></script>
+    <script src="js/script-slider.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/equalHeight.min.js"></script>
+  </body>
+  </html>
