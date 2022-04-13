@@ -33,6 +33,7 @@
   position: relative;
   //padding-top: 40px;
   padding-bottom: 40px;
+  z-index: 30;
 }
 
 .page-main__content--inner {
@@ -115,3 +116,26 @@
 .page-main__content--goods {
   padding-bottom: 30px;
 }
+
+.page-main__content--about {
+  padding-bottom: 80px;
+
+  @media (max-width: 1600px) {
+    padding-bottom: 60px;
+  }
+
+  @media (max-width: 1280px) {
+    padding-bottom: 40px;
+  }
+}
+
+.page-main__content--about::after {
+  bottom: -35px;
+  z-index: -1;
+
+  @media (max-width: 1280px) {
+    bottom: -30px;
+  }
+}
+
+

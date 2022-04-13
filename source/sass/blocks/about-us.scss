@@ -42,3 +42,19 @@
     padding-bottom: 0;
   }
 }
+
+.about-us--about .blog-author__wrap,
+.about-us--about .blog-author__desc p {
+  @media (max-width: 480px) {
+    display: block;
+  }
+}
+
+.about-us--about .title-main {
+  @media (max-width: 480px) {
+    display: block;
+    padding-top: 6.25vw;
+    margin-bottom: 5vw;
+  }
+}
+
