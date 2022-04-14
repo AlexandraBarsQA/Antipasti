@@ -2,21 +2,42 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -2.6vw;
+  bottom: -2.5vw;
 
   @media (max-width: 1600px) {
-    bottom: -2vw;
+    bottom: -3vw;
   }
 
   @media (max-width: 1280px) {
-    bottom: -1.6vw;
+    bottom: -3.5vw;
   }
 
   @media (max-width: 1080px) {
-    bottom: -4.63vw;
+    bottom: -5vw;
+  }
+
+  @media (max-width: 992px) {
+    bottom: -6vw;
   }
 
   @media (max-width: 767px) {
-    bottom: -3vw;
+    bottom: -6.5vw;
+  }
+
+  @media (max-width: 680px) {
+    width: 80%;
+    bottom: -8vw;
+  }
+
+  @media (max-width: 580px) {
+    bottom: -10vw;
+  }
+
+  @media (max-width: 480px) {
+    bottom: -10.5vw;
+  }
+
+  @media (max-width: 380px) {
+    bottom: -12vw;
   }
 }

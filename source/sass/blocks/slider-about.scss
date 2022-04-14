@@ -12,13 +12,63 @@
 
 .slider-about__toggle.swiper-button-next,
 .slider-about__toggle.swiper-button-prev {
-  color: #ffffff;
+  color: transparent;
+}
 
-  &:hover {
-    opacity: 0.7;
+.slider-about__toggle.swiper-button-next,
+.slider-about__toggle.swiper-button-prev {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  top: 45%;
+  background-color: #98b500;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 15;
+
+  @media (max-width: 1080px) {
+    width: 58px;
+    height: 58px;
   }
 
-  &:active {
-    opacity: 0.2;
+  @media (max-width: 380px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.slider-about__toggle--prev {
+  left: 10px;
+
+  @media (max-width: 767px) {
+    left: 5px;
+  }
+}
+
+.slider-about__toggle--next {
+  right: 10px;
+  transform: scaleX(-1);
+
+  @media (max-width: 767px) {
+    right: 5px;
+  }
+}
+
+.slider-about__toggle::before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  top: 50%;
+  left: calc(60% - 23px / 2);
+  transform: translateY(-50%) rotate(-135deg);
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+
+  @media (max-width: 380px) {
+    width: 15px;
+    height: 15px;
+    left: calc(60% - 15px / 2);
   }
 }
